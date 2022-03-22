@@ -1,0 +1,11 @@
+id_plant,phyto,treatment_co2,treatment_h2O,water_treatment
+121,2,ambient,control,control
+122,2,ambient,drought,drought
+123,2,ambient,drought,drought
+124,2,ambient,drought,drought
+125,2,ambient,control,control
+126,1,elevated,drought,drought
+127,1,elevated,control,control
+128,1,elevated,drought,drought
+129,1,elevated,drought,drought
+130,1,elevated,control,control

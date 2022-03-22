@@ -106,6 +106,26 @@ summary(mod)
 # there is a significant (p = 0.004) positive relationship between height and diamter at the begining of the experiment
 # height increases by 10.4 (se = 3.5) cm for every 1 cm increase in diameter at the base
 # this relationship is weak (r2 = 0.09)
+# check the linear regression assumptions
+# normal distribution of variables (besides histograms)
+shapiro.test(morpho_biomass$diam_i_avg)
+shapiro.test(morpho_biomass$initial_height_cm)
+# the relationship between the data is linear: no evident trends
+plot(mod, 1)
+# homogeneity of variance: flat line
+plot(mod, 3)
+# normality of residuals: lines fall within the 1:1 line
+plot(mod, 2)
+# bonus: outliners and high leverage points
+# outliers have standardize residuals > 3
+# high leverage points: extreme predictors
+plot(mod, 5)
+# plot all at once:
+
+windows(12, 8)
+par(mfrow=c(2,2))
+plot(mod)
+
 # let's plot it
 windows(12, 8)
 par(mfrow = c(1, 1))
