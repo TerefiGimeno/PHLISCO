@@ -1,0 +1,653 @@
+plant_ID,date,weight_kg,timing,water_plate,OBS_weight
+3,20210429,6.7345,unknnow,presumably no,nothing
+20,20210429,6.921,unknnow,presumably no,nothing
+23,20210429,6.9055,unknnow,presumably no,nothing
+24,20210429,7.3195,unknnow,presumably no,nothing
+28,20210429,6.2355,unknnow,presumably no,nothing
+31,20210429,6.725,unknnow,presumably no,nothing
+33,20210429,6.2685,unknnow,presumably no,nothing
+41,20210429,6.5085,unknnow,presumably no,nothing
+42,20210429,6.6465,unknnow,presumably no,nothing
+75,20210429,6.9595,unknnow,presumably no,nothing
+77,20210429,7.727,unknnow,presumably no,nothing
+80,20210429,7.1895,unknnow,presumably no,nothing
+107,20210429,7.2035,unknnow,presumably no,nothing
+116,20210429,7.1125,unknnow,presumably no,nothing
+6,20210430,7.155,unknnow,presumably no,nothing
+14,20210430,6.643,unknnow,presumably no,nothing
+25,20210430,6.7525,unknnow,presumably no,nothing
+35,20210430,6.618,unknnow,presumably no,nothing
+46,20210430,6.661,unknnow,presumably no,nothing
+50,20210430,6.806,unknnow,presumably no,nothing
+54,20210430,6.3700,unknnow,presumably no,nothing
+61,20210430,6.6935,unknnow,presumably no,nothing
+68,20210430,6.7095,unknnow,presumably no,nothing
+69,20210430,7.1865,unknnow,presumably no,nothing
+89,20210430,7.511,unknnow,presumably no,nothing
+101,20210430,7.1555,unknnow,presumably no,nothing
+104,20210430,7.4115,unknnow,presumably no,nothing
+111,20210430,7.0995,unknnow,presumably no,nothing
+112,20210430,6.811,unknnow,presumably no,nothing
+3,20210503,6.73,unknnow,presumably no,nothing
+20,20210503,6.8655,unknnow,presumably no,nothing
+23,20210503,6.8955,unknnow,presumably no,nothing
+24,20210503,7.2970,unknnow,presumably no,nothing
+28,20210503,6.2640,unknnow,presumably no,nothing
+31,20210503,6.6470,unknnow,presumably no,nothing
+33,20210503,6.2640,unknnow,presumably no,nothing
+41,20210503,6.5005,unknnow,presumably no,nothing
+42,20210503,6.6250,unknnow,presumably no,nothing
+64,20210503,6.8055,unknnow,presumably no,nothing
+75,20210503,7,unknnow,presumably no,nothing
+77,20210503,7.7070,unknnow,presumably no,nothing
+80,20210503,7.1955,unknnow,presumably no,nothing
+107,20210503,7.1915,unknnow,presumably no,nothing
+116,20210503,7.1050,unknnow,presumably no,nothing
+6,20210504,7.1925,after watering,presumably no,nothing
+14,20210504,6.721,after watering,presumably no,nothing
+25,20210504,6.729,after watering,presumably no,nothing
+35,20210504,6.618,after watering,presumably no,nothing
+46,20210504,6.6505,after watering,presumably no,nothing
+50,20210504,6.8615,after watering,presumably no,nothing
+54,20210504,6.3285,after watering,presumably no,nothing
+61,20210504,6.704,after watering,presumably no,nothing
+68,20210504,6.808,after watering,presumably no,nothing
+69,20210504,7.149,after watering,no,nothing
+89,20210504,7.4995,after watering,presumably no,nothing
+101,20210504,7.097,after watering,presumably no,nothing
+104,20210504,7.386,after watering,presumably no,nothing
+111,20210504,7.0945,after watering,presumably no,nothing
+112,20210504,6.8235,after watering,presumably no,nothing
+6,20210504,6.9465,before watering,presumably no,nothing
+14,20210504,6.3685,before watering,presumably no,nothing
+25,20210504,6.3835,before watering,presumably no,nothing
+35,20210504,6.413,before watering,presumably no,nothing
+46,20210504,6.5345,before watering,presumably no,nothing
+50,20210504,6.5435,before watering,presumably no,nothing
+54,20210504,6.195,before watering,presumably no,nothing
+61,20210504,6.383,before watering,presumably no,nothing
+68,20210504,6.4595,before watering,presumably no,nothing
+69,20210504,6.816,before watering,presumably no,nothing
+89,20210504,7.327,before watering,presumably no,nothing
+101,20210504,6.7845,before watering,presumably no,nothing
+104,20210504,7.097,before watering,presumably no,nothing
+111,20210504,6.942,before watering,presumably no,nothing
+112,20210504,6.593,before watering,presumably no,nothing
+3,20210506,6.802,after watering,presumably no,nothing
+20,20210506,6.8815,after watering,no,nothing
+23,20210506,6.961,after watering,presumably no,nothing
+24,20210506,7.3705,after watering,presumably no,nothing
+28,20210506,6.339,after watering,presumably no,nothing
+31,20210506,6.678,after watering,no,nothing
+33,20210506,6.3345,after watering,presumably no,nothing
+41,20210506,6.561,after watering,presumably no,nothing
+42,20210506,6.6785,after watering,presumably no,nothing
+64,20210506,6.8765,after watering,presumably no,nothing
+75,20210506,7.026,after watering,presumably no,nothing
+77,20210506,7.782,after watering,presumably no,nothing
+80,20210506,7.2545,after watering,presumably no,nothing
+100,20210506,6.864,after watering,no,nothing
+107,20210506,7.261,after watering,presumably no,nothing
+116,20210506,7.1675,after watering,presumably no,nothing
+121,20210506,6.117,after watering,presumably no,nothing
+122,20210506,5.534,after watering,presumably no,nothing
+123,20210506,6.5035,after watering,presumably no,nothing
+124,20210506,7.027,after watering,presumably no,nothing
+125,20210506,6.434,after watering,presumably no,nothing
+3,20210506,6.6825,before watering,presumably no,nothing
+20,20210506,6.524,before watering,presumably no,nothing
+23,20210506,6.6695,before watering,presumably no,nothing
+24,20210506,7.148,before watering,presumably no,nothing
+28,20210506,5.986,before watering,presumably no,nothing
+31,20210506,6.299,before watering,presumably no,nothing
+33,20210506,6.0115,before watering,presumably no,nothing
+41,20210506,6.404,before watering,presumably no,nothing
+42,20210506,6.392,before watering,presumably no,nothing
+64,20210506,6.5565,before watering,presumably no,nothing
+75,20210506,6.6715,before watering,presumably no,nothing
+77,20210506,7.51,before watering,presumably no,nothing
+80,20210506,7.1185,before watering,presumably no,nothing
+107,20210506,7.017,before watering,presumably no,nothing
+116,20210506,6.942,before watering,presumably no,nothing
+121,20210506,5.8475,before watering,presumably no,nothing
+122,20210506,5.159,before watering,presumably no,nothing
+123,20210506,6.141,before watering,presumably no,nothing
+124,20210506,6.7815,before watering,presumably no,nothing
+125,20210506,6.063,before watering,presumably no,nothing
+6,20210507,7.1695,after watering,yes,nothing
+14,20210507,6.8175,after watering,yes,nothing
+25,20210507,6.791,after watering,yes,nothing
+35,20210507,6.664,after watering,yes,nothing
+46,20210507,6.699,after watering,yes,nothing
+50,20210507,6.909,after watering,yes,nothing
+54,20210507,6.388,after watering,no,nothing
+61,20210507,6.767,after watering,yes,nothing
+68,20210507,6.803,after watering,yes,nothing
+69,20210507,7.2715,after watering,no,nothing
+89,20210507,7.5455,after watering,yes,nothing
+101,20210507,7.1505,after watering,presumably no,nothing
+104,20210507,7.436,after watering,presumably no,nothing
+111,20210507,7.1295,after watering,yes,nothing
+112,20210507,6.877,after watering,yes,nothing
+126,20210507,6.1745,after watering,yes,nothing
+127,20210507,6.148,after watering,presumably no,regada con 525 mL
+128,20210507,6.2495,after watering,yes,nothing
+129,20210507,6.4145,after watering,presumably no,nothing
+130,20210507,5.9985,after watering,yes,nothing
+3,20210507,6.7285,24 after watering,yes,nothing
+20,20210507,6.9265,24 after watering,no,nothing
+23,20210507,6.908,24 after watering,yes,nothing
+24,20210507,7.2885,24 after watering,yes,nothing
+28,20210507,6.2715,24 after watering,no,nothing
+31,20210507,6.7465,24 after watering,yes,nothing
+33,20210507,6.277,24 after watering,yes,nothing
+41,20210507,6.511,24 after watering,yes,nothing
+42,20210507,6.62,24 after watering,yes,nothing
+64,20210507,6.8135,24 after watering,yes,nothing
+75,20210507,6.946,24 after watering,no,nothing
+77,20210507,7.697,24 after watering,yes,nothing
+80,20210507,7.2015,24 after watering,yes,nothing
+100,20210507,999,24 after watering,presumably no,nothing
+107,20210507,7.172,24 after watering,yes,nothing
+116,20210507,7.09,24 after watering,yes,nothing
+121,20210507,6.105,24 after watering,yes,nothing
+122,20210507,5.5095,24 after watering,no,nothing
+123,20210507,6.4695,24 after watering,no,nothing
+124,20210507,6.9555,24 after watering,yes,nothing
+125,20210507,6.3795,24 after watering,no,nothing
+6,20210507,7.0115,before watering,no,nothing
+14,20210507,6.4915,before watering,no,nothing
+25,20210507,6.425,before watering,no,nothing
+35,20210507,6.492,before watering,no,nothing
+46,20210507,6.5745,before watering,yes,nothing
+50,20210507,6.615,before watering,no,nothing
+54,20210507,6.0225,before watering,no,nothing
+61,20210507,6.459,before watering,no,nothing
+68,20210507,6.628,before watering,no,nothing
+69,20210507,6.8945,before watering,no,nothing
+89,20210507,7.4125,before watering,yes,nothing
+101,20210507,6.8135,before watering,no,nothing
+104,20210507,7.17,before watering,no,nothing
+111,20210507,6.9525,before watering,no,nothing
+112,20210507,6.6905,before watering,no,nothing
+126,20210507,5.9075,before watering,no,nothing
+127,20210507,5.8425,before watering,no,nothing
+128,20210507,5.89,before watering,no,nothing
+129,20210507,6.1535,before watering,no,nothing
+130,20210507,5.7605,before watering,no,nothing
+6,20210510,7.0615,before watering,no,nothing
+14,20210510,6.4645,before watering,no,nothing
+25,20210510,6.5275,before watering,no,nothing
+35,20210510,6.5025,before watering,no,regada con 800 mL
+46,20210510,6.596,before watering,yes,nothing
+50,20210510,6.5675,before watering,no,nothing
+54,20210510,6.2295,before watering,no,nothing
+61,20210510,6.5135,before watering,no,nothing
+68,20210510,6.6505,before watering,no,regada con 800 mL
+69,20210510,7.161,before watering,no,nothing
+89,20210510,7.372,before watering,no,regada con 800 mL
+101,20210510,6.8435,before watering,no,nothing
+104,20210510,7.1735,before watering,no,regada con 800 mL
+111,20210510,7.045,before watering,no,regada con 800 mL
+112,20210510,6.6405,before watering,no,regada con 800 mL
+126,20210510,6.022,before watering,no,nothing
+127,20210510,5.953,before watering,no,nothing
+128,20210510,6.0555,before watering,no,nothing
+129,20210510,6.291,before watering,no,nothing
+130,20210510,5.924,before watering,no,nothing
+3,20210510,6.652,before watering,no,nothing
+20,20210510,6.374,before watering,no,nothing
+23,20210510,6.45,before watering,no,nothing
+24,20210510,7.14,before watering,no,nothing
+28,20210510,5.92,before watering,no,nothing
+31,20210510,6.317,before watering,no,nothing
+33,20210510,5.832,before watering,no,nothing
+41,20210510,6.389,before watering,no,nothing
+42,20210510,6.312,before watering,no,nothing
+64,20210510,6.47,before watering,no,nothing
+75,20210510,6.5975,before watering,no,nothing
+77,20210510,7.505,before watering,no,nothing
+80,20210510,7.084,before watering,no,nothing
+107,20210510,6.944,before watering,no,nothing
+116,20210510,6.676,before watering,no,nothing
+121,20210510,5.9795,before watering,no,nothing
+122,20210510,5.4005,before watering,no,nothing
+123,20210510,6.2735,before watering,no,nothing
+124,20210510,6.903,before watering,no,nothing
+125,20210510,6.26,before watering,no,nothing
+6,20210510,7.22,after watering,presumably no,nothing
+14,20210510,6.8245,after watering,presumably no,nothing
+25,20210510,6.885,after watering,presumably no,nothing
+35,20210510,6.7015,after watering,presumably no,nothing
+46,20210510,6.736,after watering,yes,lots of water in the plate
+50,20210510,6.9305,after watering,presumably no,nothing
+54,20210510,6.6025,after watering,presumably no,nothing
+61,20210510,6.8145,after watering,presumably no,nothing
+68,20210510,6.89,after watering,presumably no,nothing
+69,20210510,7.466,after watering,presumably no,nothing
+89,20210510,7.5505,after watering,presumably no,nothing
+101,20210510,7.1935,after watering,presumably no,nothing
+104,20210510,7.4655,after watering,presumably no,nothing
+111,20210510,7.3245,after watering,presumably no,nothing
+126,20210510,6.1415,after watering,presumably no,nothing
+127,20210510,6.2535,after watering,presumably no,nothing
+128,20210510,6.4215,after watering,presumably no,nothing
+129,20210510,6.41,after watering,presumably no,nothing
+130,20210510,6.035,after watering,presumably no,nothing
+3,20210510,6.8395,after watering,presumably no,nothing
+20,20210510,6.745,after watering,presumably no,nothing
+23,20210510,6.829,after watering,presumably no,nothing
+24,20210510,7.3935,after watering,presumably no,nothing
+28,20210510,6.3105,after watering,presumably no,nothing
+31,20210510,6.691,after watering,presumably no,nothing
+33,20210510,6.22,after watering,presumably no,nothing
+41,20210510,6.5875,after watering,presumably no,nothing
+42,20210510,6.6685,after watering,presumably no,nothing
+64,20210510,6.8335,after watering,presumably no,nothing
+75,20210510,6.986,after watering,presumably no,nothing
+75,20210510,7.094,after watering,presumably no,nothing
+77,20210510,7.8075,after watering,presumably no,nothing
+80,20210510,7.2775,after watering,presumably no,nothing
+107,20210510,7.243,after watering,presumably no,nothing
+112,20210510,6.9745,after watering,presumably no,nothing
+116,20210510,7.1135,after watering,presumably no,nothing
+121,20210510,6.105,after watering,presumably no,nothing
+122,20210510,5.5105,after watering,presumably no,nothing
+123,20210510,6.3935,after watering,presumably no,nothing
+124,20210510,7.0425,after watering,presumably no,nothing
+125,20210510,6.378,after watering,presumably no,nothing
+3,20210512,6.7275,before watering,yes,nothing
+23,20210512,6.4695,before watering,no,nothing
+24,20210512,7.243,before watering,no,nothing
+28,20210512,6.004,before watering,no,nothing
+33,20210512,5.8785,before watering,no,nothing
+41,20210512,6.4905,before watering,no,nothing
+75,20210512,6.7295,before watering,no,nothing
+77,20210512,7.602,before watering,no,nothing
+107,20210512,7.0435,before watering,no,nothing
+116,20210512,6.8315,before watering,no,nothing
+122,20210512,5.4385,before watering,no,nothing
+123,20210512,6.26,before watering,no,nothing
+124,20210512,6.065,before watering,no,nothing
+3,20210512,6.902,after watering,presumably no,nothing
+23,20210512,6.872,after watering,presumably no,nothing
+24,20210512,7.475,after watering,presumably no,nothing
+28,20210512,6.3725,after watering,presumably no,nothing
+33,20210512,6.3015,after watering,presumably no,nothing
+41,20210512,6.675,after watering,presumably no,nothing
+77,20210512,7.8805,after watering,presumably no,nothing
+107,20210512,7.3645,after watering,presumably no,nothing
+116,20210512,7.1995,after watering,presumably no,nothing
+122,20210512,5.6505,after watering,presumably no,nothing
+123,20210512,6.4585,after watering,presumably no,nothing
+124,20210512,7.0685,after watering,presumably no,nothing
+6,20210513,7.013,before watering,presumably no,nothing
+14,20210513,6.4785,before watering,presumably no,nothing
+25,20210513,6.4515,before watering,presumably no,nothing
+35,20210513,6.4855,before watering,presumably no,nothing
+46,20210513,6.587,before watering,presumably no,nothing
+50,20210513,6.599,before watering,presumably no,nothing
+54,20210513,6.143,before watering,presumably no,nothing
+61,20210513,6.55,before watering,presumably no,nothing
+68,20210513,6.6215,before watering,presumably no,nothing
+69,20210513,7.182,before watering,presumably no,nothing
+89,20210513,7.377,before watering,presumably no,nothing
+101,20210513,6.843,before watering,presumably no,nothing
+104,20210513,7.154,before watering,presumably no,nothing
+111,20210513,7.0995,before watering,presumably no,nothing
+112,20210513,6.676,before watering,presumably no,nothing
+126,20210513,5.911,before watering,presumably no,nothing
+127,20210513,5.9945,before watering,presumably no,nothing
+128,20210513,6.1815,before watering,presumably no,nothing
+129,20210513,6.229,before watering,presumably no,nothing
+130,20210513,5.859,before watering,presumably no,nothing
+20,20210513,6.2475,before watering,presumably no,nothing
+31,20210513,6.2295,before watering,presumably no,nothing
+42,20210513,6.316,before watering,presumably no,nothing
+64,20210513,6.4915,before watering,presumably no,nothing
+80,20210513,7.0685,before watering,presumably no,nothing
+121,20210513,5.926,before watering,presumably no,nothing
+123,20210513,6.267,before watering,presumably no,nothing
+6,20210513,7.202,after watering,presumably no,nothing
+14,20210513,6.8345,after watering,presumably no,nothing
+25,20210513,6.881,after watering,presumably no,nothing
+35,20210513,6.6945,after watering,presumably no,nothing
+46,20210513,6.707,after watering,presumably no,nothing
+50,20210513,6.9165,after watering,presumably no,nothing
+54,20210513,6.525,after watering,presumably no,nothing
+61,20210513,6.795,after watering,presumably no,nothing
+68,20210513,6.808,after watering,presumably no,nothing
+69,20210513,7.479,after watering,presumably no,nothing
+89,20210513,6.8605,after watering,presumably no,nothing
+101,20210513,7.1995,after watering,presumably no,nothing
+104,20210513,7.4745,after watering,presumably no,nothing
+111,20210513,7.224,after watering,presumably no,nothing
+112,20210513,6.9205,after watering,presumably no,nothing
+126,20210513,6.087,after watering,presumably no,nothing
+127,20210513,6.1235,after watering,presumably no,nothing
+128,20210513,6.2765,after watering,presumably no,nothing
+129,20210513,6.3685,after watering,presumably no,nothing
+130,20210513,5.9615,after watering,presumably no,nothing
+20,20210513,6.9215,after watering,presumably no,nothing
+31,20210513,6.587,after watering,presumably no,nothing
+42,20210513,6.6435,after watering,presumably no,nothing
+64,20210513,6.8345,after watering,presumably no,nothing
+80,20210513,7.24,after watering,presumably no,nothing
+121,20210513,6.0895,after watering,presumably no,nothing
+125,20210513,6.457,after watering,presumably no,nothing
+6,20210517,7.0555,before watering,presumably no,nothing
+14,20210517,6.4665,before watering,presumably no,nothing
+25,20210517,6.32,before watering,presumably no,nothing
+35,20210517,6.5375,before watering,presumably no,nothing
+46,20210517,6.555,before watering,presumably no,nothing
+50,20210517,6.5675,before watering,presumably no,nothing
+54,20210517,6.031,before watering,presumably no,nothing
+61,20210517,6.5565,before watering,presumably no,nothing
+68,20210517,6.6185,before watering,presumably no,nothing
+69,20210517,7.2565,before watering,presumably no,nothing
+89,20210517,7.391,before watering,presumably no,nothing
+101,20210517,6.896,before watering,presumably no,nothing
+104,20210517,7.1795,before watering,presumably no,nothing
+111,20210517,7.111,before watering,presumably no,nothing
+112,20210517,6.7745,before watering,presumably no,nothing
+126,20210517,5.9205,before watering,presumably no,nothing
+127,20210517,5.9485,before watering,presumably no,nothing
+128,20210517,6.1045,before watering,presumably no,nothing
+129,20210517,6.201,before watering,presumably no,nothing
+130,20210517,5.82,before watering,presumably no,nothing
+3,20210517,6.676,before watering,presumably no,nothing
+20,20210517,6.323,before watering,presumably no,nothing
+23,20210517,6.279,before watering,presumably no,nothing
+24,20210517,7.075,before watering,presumably no,nothing
+28,20210517,5.751,before watering,presumably no,nothing
+31,20210517,6.057,before watering,presumably no,nothing
+33,20210517,5.6115,before watering,presumably no,nothing
+41,20210517,6.3415,before watering,presumably no,nothing
+42,20210517,6.1615,before watering,presumably no,nothing
+64,20210517,6.41,before watering,presumably no,nothing
+75,20210517,6.5605,before watering,presumably no,nothing
+77,20210517,7.479,before watering,presumably no,nothing
+80,20210517,7.031,before watering,presumably no,nothing
+107,20210517,6.8935,before watering,presumably no,nothing
+116,20210517,6.667,before watering,presumably no,nothing
+121,20210517,5.9515,before watering,presumably no,nothing
+122,20210517,5.468,before watering,presumably no,nothing
+123,20210517,6.313,before watering,presumably no,nothing
+124,20210517,6.6275,before watering,presumably no,nothing
+125,20210517,6.268,before watering,presumably no,nothing
+54,20210517,6.403,after watering,presumably no,nothing
+61,20210517,6.833,after watering,presumably no,nothing
+68,20210517,6.8285,after watering,presumably no,nothing
+89,20210517,7.568,after watering,presumably no,nothing
+111,20210517,7.243,after watering,presumably no,nothing
+127,20210517,6.144,after watering,presumably no,nothing
+130,20210517,5.991,after watering,presumably no,nothing
+1,20210517,6.633,after watering,presumably no,nothing
+20,20210517,6.683,after watering,presumably no,nothing
+31,20210517,6.4375,after watering,presumably no,nothing
+42,20210517,6.545,after watering,presumably no,nothing
+64,20210517,6.767,after watering,presumably no,nothing
+80,20210517,7.2585,after watering,presumably no,nothing
+121,20210517,6.165,after watering,presumably no,nothing
+123,20210517,6.6005,after watering,presumably no,Se riega sin querer :(
+125,20210517,6.5525,after watering,presumably no,nothing
+6,20210520,6.873,before watering,presumably no,nothing
+14,20210520,6.0665,before watering,presumably no,nothing
+25,20210520,5.881,before watering,presumably no,nothing
+35,20210520,6.257,before watering,presumably no,nothing
+46,20210520,6.3925,before watering,presumably no,nothing
+50,20210520,6.183,before watering,presumably no,nothing
+54,20210520,5.93,before watering,presumably no,nothing
+61,20210520,6.5795,before watering,presumably no,nothing
+69,20210520,6.947,before watering,presumably no,nothing
+89,20210520,7.3935,before watering,presumably no,nothing
+101,20210520,6.6045,before watering,presumably no,nothing
+111,20210520,7.1605,before watering,presumably no,nothing
+112,20210520,6.519,before watering,presumably no,nothing
+126,20210520,5.818,before watering,presumably no,nothing
+127,20210520,6.095,before watering,presumably no,nothing
+128,20210520,5.984,before watering,presumably no,nothing
+129,20210520,6.0615,before watering,presumably no,nothing
+130,20210520,5.938,before watering,presumably no,nothing
+3,20210520,6.436,before watering,presumably no,nothing
+20,20210520,6.1855,before watering,presumably no,nothing
+23,20210520,5.914,before watering,presumably no,nothing
+24,20210520,6.763,before watering,presumably no,nothing
+28,20210520,5.442,before watering,presumably no,nothing
+31,20210520,6.055,before watering,presumably no,nothing
+33,20210520,5.247,before watering,presumably no,nothing
+41,20210520,6.092,before watering,presumably no,nothing
+42,20210520,6.188,before watering,presumably no,nothing
+64,20210520,6.3005,before watering,presumably no,nothing
+75,20210520,6.272,before watering,presumably no,nothing
+77,20210520,7.2105,before watering,presumably no,nothing
+80,20210520,7.017,before watering,presumably no,nothing
+107,20210520,6.5765,before watering,presumably no,nothing
+116,20210520,6.3965,before watering,presumably no,nothing
+121,20210520,6.1175,before watering,presumably no,nothing
+122,20210520,5.3725,before watering,presumably no,nothing
+123,20210520,6.522,before watering,presumably no,nothing
+124,20210520,6.4275,before watering,presumably no,nothing
+125,20210520,6.424,before watering,presumably no,nothing
+127,20210520,6.2905,after watering,presumably no,nothing
+89,20210520,6.554,after watering,presumably no,nothing
+68,20210520,6.575,after watering,presumably no,nothing
+61,20210520,6.4415,after watering,presumably no,nothing
+111,20210520,7.301,after watering,presumably no,nothing
+54,20210520,6.3125,after watering,presumably no,nothing
+130,20210520,6.062,after watering,presumably no,nothing
+121,20210520,6.2905,after watering,presumably no,nothing
+20,20210520,6.554,after watering,presumably no,nothing
+42,20210520,6.575,after watering,presumably no,nothing
+31,20210520,6.4415,after watering,presumably no,nothing
+80,20210520,7.3145,after watering,presumably no,nothing
+64,20210520,6.68,after watering,presumably no,nothing
+125,20210520,6.6475,after watering,presumably no,nothing
+6,20210524,6.687,before watering,presumably no,nothing
+14,20210524,5.669,before watering,presumably no,nothing
+25,20210524,5.656,before watering,presumably no,nothing
+35,20210524,5.934,before watering,presumably no,nothing
+46,20210524,6.179,before watering,presumably no,nothing
+50,20210524,5.7945,before watering,presumably no,nothing
+54,20210524,5.86,before watering,presumably no,nothing
+61,20210524,6.543,before watering,presumably no,nothing
+68,20210524,6.6055,before watering,presumably no,nothing
+69,20210524,6.63,before watering,presumably no,nothing
+89,20210524,7.147,before watering,presumably no,nothing
+101,20210524,6.2845,before watering,presumably no,nothing
+104,20210524,6.5315,before watering,presumably no,nothing
+111,20210524,7.0935,before watering,presumably no,nothing
+112,20210524,6.2325,before watering,presumably no,nothing
+126,20210524,5.707,before watering,presumably no,nothing
+127,20210524,6.0605,before watering,presumably no,nothing
+128,20210524,5.8775,before watering,presumably no,nothing
+129,20210524,5.942,before watering,presumably no,nothing
+130,20210524,5.904,before watering,presumably no,nothing
+3,20210524,6.18,before watering,presumably no,nothing
+20,20210524,6.065,before watering,presumably no,nothing
+23,20210524,5.653,before watering,presumably no,nothing
+24,20210524,6.449,before watering,presumably no,nothing
+28,20210524,5.2475,before watering,presumably no,nothing
+31,20210524,5.852,before watering,presumably no,nothing
+33,20210524,4.9949,before watering,presumably no,nothing
+41,20210524,5.774,before watering,presumably no,nothing
+42,20210524,6.099,before watering,presumably no,nothing
+64,20210524,6.24,before watering,presumably no,nothing
+75,20210524,6.0045,before watering,presumably no,nothing
+77,20210524,6.886,before watering,presumably no,nothing
+80,20210524,6.9535,before watering,presumably no,nothing
+107,20210524,6.3165,before watering,presumably no,nothing
+116,20210524,6.054,before watering,presumably no,nothing
+121,20210524,6.1675,before watering,presumably no,nothing
+122,20210524,5.269,before watering,presumably no,nothing
+123,20210524,6.39,before watering,presumably no,nothing
+124,20210524,6.2775,before watering,presumably no,nothing
+125,20210524,6.5435,before watering,presumably no,nothing
+54,20210524,6.2105,after watering,presumably no,nothing
+61,20210524,6.8325,after watering,presumably no,nothing
+68,20210524,6.838,after watering,presumably no,nothing
+89,20210524,7.459,after watering,presumably no,nothing
+111,20210524,7.2425,after watering,presumably no,nothing
+127,20210524,6.182,after watering,presumably no,nothing
+130,20210524,6.022,after watering,presumably no,nothing
+20,20210524,6.402,after watering,presumably no,nothing
+31,20210524,6.212,after watering,presumably no,nothing
+42,20210524,6.473,after watering,presumably no,nothing
+64,20210524,6.6025,after watering,presumably no,nothing
+80,20210524,7.236,after watering,presumably no,nothing
+121,20210524,6.271,after watering,presumably no,nothing
+125,20210524,6.658,after watering,presumably no,nothing
+6,20210527,999,before watering,presumably no,nothing
+14,20210527,5.487,before watering,presumably no,nothing
+25,20210527,5.5345,before watering,presumably no,nothing
+35,20210527,999,before watering,presumably no,nothing
+46,20210527,5.9785,before watering,presumably no,nothing
+50,20210527,999,before watering,presumably no,nothing
+54,20210527,5.731,before watering,presumably no,nothing
+61,20210527,6.5165,before watering,presumably no,nothing
+68,20210527,6.481,before watering,presumably no,nothing
+69,20210527,999,before watering,presumably no,nothing
+89,20210527,7.22,before watering,presumably no,nothing
+101,20210527,5.9215,before watering,presumably no,nothing
+104,20210527,999,before watering,presumably no,nothing
+111,20210527,7.043,before watering,presumably no,nothing
+112,20210527,5.9535,before watering,presumably no,nothing
+126,20210527,5.5785,before watering,presumably no,nothing
+127,20210527,6.068,before watering,presumably no,nothing
+128,20210527,5.7575,before watering,presumably no,nothing
+129,20210527,5.8605,before watering,presumably no,nothing
+130,20210527,5.855,before watering,presumably no,nothing
+3,20210527,6.2145,before watering,presumably no,nothing
+20,20210527,5.8525,before watering,presumably no,nothing
+23,20210527,999,before watering,presumably no,nothing
+24,20210527,999,before watering,presumably no,nothing
+28,20210527,5.136,before watering,presumably no,nothing
+31,20210527,5.831,before watering,presumably no,nothing
+33,20210527,999,before watering,presumably no,nothing
+41,20210527,999,before watering,presumably no,nothing
+42,20210527,6.049,before watering,presumably no,nothing
+64,20210527,6.1565,before watering,presumably no,nothing
+75,20210527,999,before watering,presumably no,nothing
+77,20210527,6.65,before watering,presumably no,nothing
+80,20210527,6.9515,before watering,presumably no,nothing
+107,20210527,6.0305,before watering,presumably no,nothing
+116,20210527,5.834,before watering,presumably no,nothing
+121,20210527,6.158,before watering,presumably no,nothing
+122,20210527,5.2065,before watering,presumably no,nothing
+123,20210527,6.3155,before watering,presumably no,nothing
+124,20210527,6.184,before watering,presumably no,nothing
+125,20210527,6.584,before watering,presumably no,nothing
+127,20210527,6.236,after watering,presumably no,nothing
+89,20210527,7.5325,after watering,presumably no,nothing
+68,20210527,6.8575,after watering,presumably no,nothing
+61,20210527,6.868,after watering,presumably no,nothing
+111,20210527,7.2725,after watering,presumably no,nothing
+54,20210527,6.117,after watering,presumably no,nothing
+130,20210527,6.051,after watering,presumably no,nothing
+121,20210527,6.322,after watering,presumably no,nothing
+20,20210527,6.232,after watering,presumably no,nothing
+42,20210527,6.4265,after watering,presumably no,nothing
+31,20210527,6.202,after watering,presumably no,nothing
+80,20210527,7.2635,after watering,presumably no,nothing
+64,20210527,6.5445,after watering,presumably no,nothing
+125,20210527,6.7335,after watering,presumably no,nothing
+6,20210531,999,before watering,presumably no,nothing
+14,20210531,5.3615,before watering,presumably no,nothing
+25,20210531,5.444,before watering,presumably no,nothing
+35,20210531,999,before watering,presumably no,nothing
+46,20210531,5.7815,before watering,presumably no,nothing
+50,20210531,999,before watering,presumably no,nothing
+54,20210531,5.6395,before watering,presumably no,nothing
+61,20210531,6.4895,before watering,presumably no,nothing
+68,20210531,6.394,before watering,presumably no,nothing
+69,20210531,999,before watering,presumably no,nothing
+89,20210531,7.2295,before watering,presumably no,nothing
+101,20210531,5.706,before watering,presumably no,nothing
+104,20210531,999,before watering,presumably no,nothing
+111,20210531,7.09,before watering,presumably no,nothing
+112,20210531,5.733,before watering,presumably no,nothing
+126,20210531,5.4595,before watering,presumably no,nothing
+127,20210531,6.118,before watering,presumably no,nothing
+128,20210531,5.6195,before watering,presumably no,nothing
+129,20210531,5.7605,before watering,presumably no,nothing
+130,20210531,5.9375,before watering,presumably no,nothing
+3,20210531,999,before watering,presumably no,nothing
+20,20210531,5.736,before watering,presumably no,nothing
+23,20210531,999,before watering,presumably no,nothing
+24,20210531,6.0405,before watering,presumably no,nothing
+28,20210531,5.04,before watering,presumably no,nothing
+31,20210531,5.7295,before watering,presumably no,nothing
+33,20210531,999,before watering,presumably no,nothing
+41,20210531,999,before watering,presumably no,nothing
+42,20210531,5.924,before watering,presumably no,nothing
+64,20210531,6.043,before watering,presumably no,nothing
+75,20210531,999,before watering,presumably no,nothing
+77,20210531,6.4375,before watering,presumably no,nothing
+80,20210531,6.913,before watering,presumably no,nothing
+107,20210531,5.7855,before watering,presumably no,nothing
+116,20210531,5.617,before watering,presumably no,nothing
+121,20210531,6.2055,before watering,presumably no,nothing
+122,20210531,5.1455,before watering,presumably no,nothing
+123,20210531,6.2535,before watering,presumably no,nothing
+124,20210531,6.1085,before watering,presumably no,nothing
+125,20210531,6.5975,before watering,presumably no,nothing
+127,20210531,6.2105,after watering,presumably no,nothing
+89,20210531,7.5175,after watering,presumably no,nothing
+68,20210531,6.7765,after watering,presumably no,nothing
+61,20210531,6.8355,after watering,presumably no,nothing
+111,20210531,7.241,after watering,presumably no,nothing
+54,20210531,6.011,after watering,presumably no,nothing
+130,20210531,6.048,after watering,presumably no,nothing
+121,20210531,6.3075,after watering,presumably no,nothing
+20,20210531,6.1085,after watering,presumably no,nothing
+42,20210531,6.3,after watering,presumably no,nothing
+31,20210531,6.1055,after watering,presumably no,nothing
+80,20210531,7.232,after watering,presumably no,nothing
+64,20210531,6.4085,after watering,presumably no,nothing
+125,20210531,6.7065,after watering,presumably no,nothing
+89,20210603,7.2455,before watering,presumably no,nothing
+61,20210603,6.4435,before watering,presumably no,nothing
+54,20210603,5.643,before watering,presumably no,nothing
+46,20210603,5.611,before watering,presumably no,nothing
+14,20210603,5.283,before watering,presumably no,nothing
+126,20210603,5.4325,before watering,presumably no,nothing
+127,20210603,6.212,before watering,presumably no,nothing
+128,20210603,5.586,before watering,presumably no,nothing
+129,20210603,5.7035,before watering,presumably no,nothing
+130,20210603,5.9655,before watering,presumably no,nothing
+116,20210603,5.518,before watering,presumably no,nothing
+80,20210603,6.9345,before watering,presumably no,nothing
+64,20210603,5.9255,before watering,presumably no,nothing
+31,20210603,5.755,before watering,presumably no,nothing
+24,20210603,5.9415,before watering,presumably no,nothing
+121,20210603,999,before watering,presumably no,nothing
+122,20210603,5.1025,before watering,presumably no,nothing
+123,20210603,6.214,before watering,presumably no,nothing
+124,20210603,6.058,before watering,presumably no,nothing
+125,20210603,6.6355,before watering,presumably no,nothing
+54,20210603,6.013,after watering,presumably no,nothing
+61,20210603,6.826,after watering,presumably no,nothing
+89,20210603,7.59,after watering,presumably no,nothing
+127,20210603,6.1475,after watering,presumably no,nothing
+130,20210603,6.128,after watering,presumably no,nothing
+31,20210603,6.15,after watering,presumably no,nothing
+64,20210603,6.298,after watering,presumably no,nothing
+80,20210603,7.279,after watering,presumably no,nothing
+121,20210603,6.382,after watering,presumably no,nothing
+125,20210603,6.7795,after watering,presumably no,nothing
+121,20210609,6.1185,before watering,presumably no,nothing
+122,20210609,5.0405,before watering,presumably no,nothing
+123,20210609,6.146,before watering,presumably no,nothing
+124,20210609,5.978,before watering,presumably no,nothing
+125,20210609,6.7475,before watering,presumably no,nothing
+89,20210609,7.391,before watering,presumably no,nothing
+54,20210609,5.66,before watering,presumably no,nothing
+61,20210609,6.375,before watering,presumably no,nothing
+126,20210609,5.233,before watering,presumably no,nothing
+127,20210609,6.138,before watering,presumably no,nothing
+128,20210609,5.4165,before watering,presumably no,nothing
+129,20210609,5.6215,before watering,presumably no,nothing
+130,20210609,6.026,before watering,presumably no,nothing
+89,20210609,7.7555,after watering,presumably no,nothing
+54,20210609,6.0335,after watering,presumably no,nothing
+61,20210609,6.76,after watering,presumably no,nothing

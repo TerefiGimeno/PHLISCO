@@ -56,6 +56,8 @@ sampling[which(sampling$FW_rootNSC == 9999), 'FW_rootNSC'] <- NA
 sampling[which(sampling$FW_root == 9999), c('FW_root', 'DW_root')] <- NA
 sampling[which(sampling$FW_ss_soil == 9999), c('FW_ss_soil', 'DW_ss_soil')] <- NA
 sampling[which(sampling$FW_soil_pot_kg == 9999), c('FW_soil_pot_kg', 'DW_soil', 'W_pot')] <- NA
+sampling[which(sampling$FW_Sphl == 9999), 'FW_Sphl'] <- NA
+sampling[which(sampling$FW_SNSC == 9999), 'FW_SNSC'] <- NA
 # rename column "ID_plant"
 sampling <- sampling %>% rename(id_plant = ID_plant)
 #check the file
@@ -120,7 +122,10 @@ ggplot(morpho_biomass, aes(x = diam_i_avg, y = initial_height_cm)) +
   ylab('Height (cm)') +
   theme_classic()
 
+### export merged file to csv files (change file location accordingly)
+write.csv(morpho_biomass, file = 'phlOutput/morpho_biomass.csv', row.names = F)
 
+### scripts from Monday 14-March-2022 ####
 
 morpho <- read_excel(path = 'phlData/morpho_merged.xlsx', sheet = "Sheet1")
 str(morpho)

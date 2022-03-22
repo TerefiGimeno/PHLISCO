@@ -68,7 +68,7 @@ campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initi
 1,67,1,elevated,control,control,20210420,113,1.19,1.26,18,20210505,116,1.27,1.22,26,destructive harvest,15
 4,68,1,elevated,control,control,20210420,125,1.26,1.22,28,20210601,125,1.45,1.44,26,destructive harvest,43
 3,69,1,elevated,drought,drought,20210420,131,1.37,1.26,18,20210527,131,1.5,1.5,19,destructive harvest,37
-2,70,1,elevated,control,control,20210420,127.5,0.94,0.99,18,20210518,127,1.1,1.05,18,destructive harvest,28
+2,70,1,elevated,control,control,20210420,127.5,0.94,0.99,18,20210518,127,1.15,1.05,18,destructive harvest,28
 0,71,1,elevated,drought,drought,20210420,119,0.9,0.9,13,20210608,119,1.29,1.22,14,"Final measurement, not harvested",49
 1,72,1,elevated,control,control,20210420,114,1,1.01,29,20210505,110,1.16,1.16,29,destructive harvest,15
 0,73,1,elevated,drought,drought,20210420,123,1.14,1.03,19,20210608,124,1.25,1.37,18,"Final measurement, not harvested",49
