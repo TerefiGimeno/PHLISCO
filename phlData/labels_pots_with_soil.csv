@@ -1,4 +1,4 @@
-id_plant,phyto,treatment_co2,treatment_h2O,water_treatment
+id_plant,phyto,treatment_co2,treatment_h2o,water_treatment
 121,2,ambient,control,control
 122,2,ambient,drought,drought
 123,2,ambient,drought,drought

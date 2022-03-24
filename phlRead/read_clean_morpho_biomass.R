@@ -1,11 +1,3 @@
-### load libraries ####
-library(googledrive)
-library(lubridate)
-library(tidyverse)
-library(ggplot2)
-# you will probably also need
-library(readxl)
-
 #### read the data ####
 
 # download files in your local directory
