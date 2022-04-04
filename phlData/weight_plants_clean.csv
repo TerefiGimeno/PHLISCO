@@ -13,6 +13,7 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 80,20210429,7.1895,2_after watering,presumably no,nothing
 107,20210429,7.2035,2_after watering,presumably no,nothing
 116,20210429,7.1125,2_after watering,presumably no,nothing
+64,20210429,999,2_after watering,presumably no,missing record
 6,20210430,7.155,2_after watering,presumably no,nothing
 14,20210430,6.643,2_after watering,presumably no,nothing
 25,20210430,6.7525,2_after watering,presumably no,nothing
@@ -28,6 +29,21 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 104,20210430,7.4115,2_after watering,presumably no,nothing
 111,20210430,7.0995,2_after watering,presumably no,nothing
 112,20210430,6.811,2_after watering,presumably no,nothing
+3,20210503,999,1_before watering,presumably no,missing record
+20,20210503,999,1_before watering,presumably no,missing record
+23,20210503,999,1_before watering,presumably no,missing record
+24,20210503,999,1_before watering,presumably no,missing record
+28,20210503,999,1_before watering,presumably no,missing record
+31,20210503,999,1_before watering,presumably no,missing record
+33,20210503,999,1_before watering,presumably no,missing record
+41,20210503,999,1_before watering,presumably no,missing record
+42,20210503,999,1_before watering,presumably no,missing record
+64,20210503,999,1_before watering,presumably no,missing record
+75,20210503,999,1_before watering,presumably no,missing record
+77,20210503,999,1_before watering,presumably no,missing record
+80,20210503,999,1_before watering,presumably no,missing record
+107,20210503,999,1_before watering,presumably no,missing record
+116,20210503,999,1_before watering,presumably no,missing record
 3,20210503,6.73,2_after watering,presumably no,nothing
 20,20210503,6.8655,2_after watering,presumably no,nothing
 23,20210503,6.8955,2_after watering,presumably no,nothing
@@ -135,11 +151,9 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 129,20210507,6.4145,2_after watering,presumably no,nothing
 130,20210507,5.9985,2_after watering,yes,nothing
 3,20210507,6.7285,1_before watering,yes,nothing
-20,20210507,6.9265,1_before watering,no,nothing
 23,20210507,6.908,1_before watering,yes,nothing
 24,20210507,7.2885,1_before watering,yes,nothing
 28,20210507,6.2715,1_before watering,no,nothing
-31,20210507,6.7465,1_before watering,yes,nothing
 33,20210507,6.277,1_before watering,yes,nothing
 41,20210507,6.511,1_before watering,yes,nothing
 42,20210507,6.62,1_before watering,yes,nothing
@@ -432,7 +446,7 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 127,20210520,6.2905,2_after watering,presumably no,nothing
 89,20210520,7.554,2_after watering,presumably no,nothing
 68,20210520,999,2_after watering,presumably no,nothing
-61,20210520,6.4415,2_after watering,presumably no,nothing
+61,20210520,999,2_after watering,presumably no,nothing
 111,20210520,7.301,2_after watering,presumably no,nothing
 54,20210520,6.3125,2_after watering,presumably no,nothing
 130,20210520,6.062,2_after watering,presumably no,nothing

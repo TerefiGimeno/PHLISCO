@@ -7,9 +7,12 @@ library(doBy)
 # you will probably also need
 library(readxl)
 
+# read script with a few custom function that I use a lot
+source('phlRead/basicFunTEG.R')
+
 ### run script to download, clean and process morpho and biomass data
 source('phlRead/read_clean_morpho_biomass.R')
-# get the columns with the different treatments
+# get the columns with the lables for the different treatments
 labels <- morpho[, c('id_plant', 'phyto', 'treatment_co2', 'treatment_h2o', 'water_treatment')]
 
 #### read and pre-process the data ####
@@ -29,6 +32,28 @@ potW$date <- as.Date(ymd(as.character(potW$date)))
 # make separate objects for pots with and without plants
 soilPotW <- potW %>% filter(id_plant >= 121)
 potW <- potW %>% filter(id_plant <= 120)
+
+# Gap fill missing data -> Step 1: fill in records of missing data "after watering"
+# withe average of the weight of the corresponding plant
+
+# calculate averages of weight per plant after watering (only pots with plant)
+weight_after_means <- potW %>% 
+  filter(timing == "2_after watering" & id_plant <= 120) %>% 
+  group_by(id_plant) %>% 
+  summarise(weight_after_mean = mean(weight_kg, na.rm = T),
+            weight_after_se = s.err.na(weight_kg),
+            N_weight_after = lengthWithoutNA(weight_kg))
+# have a look at the data
+View(weight_after_means)
+# small se per plot and we have at least 5 measurements per plot
+# merge with potW
+potW <- potW %>%
+  left_join(weight_after_means[, c('id_plant', 'weight_after_mean')], by = 'id_plant')
+# gap fill
+potW$estimated_weight_after <- ifelse(is.na(potW$weight_kg) & potW$timing == "2_after watering",
+                                      'yes', 'no')
+potW$weight_kg <- ifelse(is.na(potW$weight_kg) & potW$timing == "2_after watering",
+                         potW$weight_after_mean, potW$weight_kg)
 
 # read and process the file with the final dry weights of the soils
 drySoils <- read.csv('phlData/weight_dry_soils.csv')
@@ -57,13 +82,15 @@ str(soilPotW)
 View(soilPotW)
 
 # now merge the biomass data using similar code
-# this time, let's take fresh and dry root weight into account
+# this time, let's incorporate root fresh weight into the calculations
 
+# for now, we leave aside the data from pots without plants
 # put everything back into one database and get rid of certain columns
-transp <- bind_rows(potW, soilPotW) %>% select(-c(water_plate, OBS_weight, treatment_h2o))
-head(transp)
-str(transp)
+# transp <- bind_rows(potW, soilPotW) %>% select(-c(water_plate, OBS_weight, treatment_h2o))
+# head(transp)
+# str(transp)
 
+transp <- potW %>% select(-c(water_plate, OBS_weight, treatment_h2o, weight_after_mean))
 # order the file
 transp <- doBy::orderBy(~ id_plant + date + timing, data = transp)
 View(transp)
@@ -75,21 +102,56 @@ View(transp)
 # (2) the weight was measured before adding water
 # this way we can calculate the increments for ALL pots (with and without plant) and from ALL treatments
 # tip: the function lag looks at the value of the preceding line
-transp$increment_g <- ifelse(test = transp$id_plant - lag(transp$id_plant) == 0 & transp$timing != "2_after watering",
-                           yes = (lag(transp$weight_kg) - transp$weight_kg)*1000, no = NA)
+transp$increment_g <- ifelse(transp$id_plant - lag(transp$id_plant) == 0 & transp$timing != "2_after watering",
+                           (lag(transp$weight_kg) - transp$weight_kg)*1000, NA)
 hist(transp$increment_g)
-# there are five negative estimates of transpiration
-subset(transp, increment_g < 0)
-# these are likely due to typos in the database that are not evident and  cannot be fixed
-transp[which(transp$increment_g < 0), 'increment_g'] <- NA
-# there is one reading that looks abnormably high and is likely a typo too
-subset(transp, increment_g > 900)
-transp[which(transp$increment_g > 900), 'increment_g'] <- NA
-hist(transp$increment_g)
+# # there are two negative estimates of transpiration both from pots without plant
+# subset(transp, increment_g < 0)
+# # these are likely due to typos in the database that are not evident and  cannot be fixed
+# transp[which(transp$increment_g < 0), 'increment_g'] <- NA
+# # there is one reading that looks abnormably high and is likely a typo too
+# subset(transp, increment_g > 900)
+# transp[which(transp$increment_g > 900), 'increment_g'] <- NA
+# hist(transp$increment_g)
+
 # calculate the number of days in between weight measurements
 # the function yday (from lubridate) calculated the number of the day within a year from 1 to 365
 transp$day_incr <- ifelse(transp$id_plant - lag(transp$id_plant) == 0 & transp$timing != "2_after watering",
                           yday(transp$date) - yday(lag(transp$date)), NA)
+# calculate rate of daily transpiration
+transp <- transp %>% mutate(daily_transp = increment_g/day_incr)
+
+# Gap fill missing data -> Step 2: estimate weight of pots BEFORE watering:
+transp$estimated_weight_before <- ifelse(is.na(transp$weight_kg) & transp$timing == "1_before watering",
+                                         "yes", "no")
+# A) Plants from Phyto 2 on the 3rd of May -> use estimates of transpiration from the 3rd to the 6th May
+phyto2_20210506 <- transp %>% 
+  filter(phyto == 2 & date == as.Date("2021-05-06") & timing == "1_before watering") %>% 
+  select(c(id_plant, timing, daily_transp)) %>% 
+  rename(daily_transp_est_20210506 = daily_transp)
+transp <- transp %>% 
+  left_join(phyto2_20210506, by = c('id_plant', 'timing'))
+# gap fill
+transp$increment_g <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-05-03")
+                             & transp$timing == "1_before watering",
+                           transp$daily_transp_est_20210506 * transp$day_incr, transp$increment_g)
+transp$weight_kg <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-05-03")
+                           & transp$timing == "1_before watering",
+                           lead(transp$weight_kg) - transp$day_incr*0.001, transp$weight_kg)
+# B) Control plants from Phyto 1 & 2 on the 6th May -> use estimates of transpiration from 31 May to 3 June
+control_20210603 <- transp %>% 
+  filter(water_treatment == "control" & date == as.Date("2021-06-03") & timing == "1_before watering") %>% 
+  select(c(id_plant, timing, daily_transp)) %>% 
+  rename(daily_transp_est_20210603 = daily_transp)
+transp <- transp %>% 
+  left_join(control_20210603, by = c('id_plant', 'timing'))
+# gap fill
+transp$increment_g <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-06-06")
+                             & transp$timing == "1_before watering",
+                             transp$daily_transp_est_20210603 * transp$day_incr, transp$increment_g)
+transp$weight_kg <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-05-03"),
+                           lead(transp$weight_kg) - transp$day_incr*0.001, transp$weight_kg)
+write.csv(transp, file ='transp.csv', row.names = F)
 
 # plot by treatment only plots with plant
 plantE <- subset(transp, id_plant <= 120)
