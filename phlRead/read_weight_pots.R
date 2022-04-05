@@ -12,7 +12,7 @@ source('phlRead/basicFunTEG.R')
 
 ### run script to download, clean and process morpho and biomass data
 source('phlRead/read_clean_morpho_biomass.R')
-# get the columns with the lables for the different treatments
+# get the columns with the labels for the different treatments
 labels <- morpho[, c('id_plant', 'phyto', 'treatment_co2', 'treatment_h2o', 'water_treatment')]
 
 #### read and pre-process the data ####
@@ -96,7 +96,7 @@ transp <- doBy::orderBy(~ id_plant + date + timing, data = transp)
 View(transp)
 # make sure the order is what it should look like
 # calculate weight loss in between dates
-# the ifelse function runs a test and dependign on the results assings a value or another
+# the ifelse function runs a test and depending on the results assigns a value or another
 # in this case the conditions (test) that have to be met are:
 # (1) that reading are consecutive for the same plant and
 # (2) the weight was measured before adding water
@@ -120,7 +120,7 @@ transp$day_incr <- ifelse(transp$id_plant - lag(transp$id_plant) == 0 & transp$t
                           yday(transp$date) - yday(lag(transp$date)), NA)
 # calculate rate of daily transpiration
 transp <- transp %>% mutate(daily_transp = increment_g/day_incr)
-
+hist(transp$daily_transp)
 # Gap fill missing data -> Step 2: estimate weight of pots BEFORE watering:
 transp$estimated_weight_before <- ifelse(is.na(transp$weight_kg) & transp$timing == "1_before watering",
                                          "yes", "no")
@@ -149,9 +149,19 @@ transp <- transp %>%
 transp$increment_g <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-06-06")
                              & transp$timing == "1_before watering",
                              transp$daily_transp_est_20210603 * transp$day_incr, transp$increment_g)
-transp$weight_kg <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-05-03"),
+transp$weight_kg <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("2021-05-03")
+                           & transp$timing == "1_before watering",
                            lead(transp$weight_kg) - transp$day_incr*0.001, transp$weight_kg)
+# exclude daily transpiration rates calculated using estimated weights for further analyses:
+transp$daily_transp <- ifelse(transp$estimated_weight_before == 'yes', NA, transp$daily_transp) 
+
 write.csv(transp, file ='transp.csv', row.names = F)
+# calculate cumulative transpiration 8E) and daily mean E over the entire period (29 or 30 April until harvest date):
+transp_summ <- transp %>% 
+  group_by(id_plant) %>% 
+  summarise(E_cum = sum(increment_g, na.rm = T), ndays = sum(day_incr,  na.rm = T),
+            E_rate_mean = mean(daily_transp, na.rm = T), E_rate_se = s.err.na(daily_transp),
+            E_rate_n = lengthWithoutNA(daily_transp))
 
 # plot by treatment only plots with plant
 plantE <- subset(transp, id_plant <= 120)
