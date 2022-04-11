@@ -1,6 +1,6 @@
 "id_plant","date","weight_kg","timing","estimated_weight_after","dryW_kg","phyto","treatment_co2","water_treatment","plant_in_pot","increment_g","day_incr","daily_transp","estimated_weight_before","daily_transp_est_20210506","daily_transp_est_20210603"
 3,2021-04-29,6.7345,"2_after watering","no",4.30181,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-3,2021-05-03,6.726,"1_before watering","no",4.30181,2,"ambient","drought","yes",63.3333333333338,4,NA,"yes",15.8333333333334,NA
+3,2021-05-03,6.66666666666667,"1_before watering","no",4.30181,2,"ambient","drought","yes",63.3333333333338,4,NA,"yes",15.8333333333334,NA
 3,2021-05-03,6.73,"2_after watering","no",4.30181,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 3,2021-05-06,6.6825,"1_before watering","no",4.30181,2,"ambient","drought","yes",47.5000000000003,3,15.8333333333334,"no",15.8333333333334,NA
 3,2021-05-06,6.802,"2_after watering","no",4.30181,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -43,7 +43,7 @@
 14,2021-06-03,5.283,"1_before watering","no",4.18168,1,"elevated","drought","yes",78.5,3,26.1666666666667,"no",NA,NA
 14,2021-06-09,5.179,"1_before watering","no",4.18168,1,"elevated","drought","yes",104,6,17.3333333333333,"no",NA,NA
 20,2021-04-29,6.921,"2_after watering","no",4.48441,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
-20,2021-05-03,6.8615,"1_before watering","no",4.48441,2,"ambient","control","yes",455.333333333333,4,NA,"yes",113.833333333333,NA
+20,2021-05-03,6.41016666666667,"1_before watering","no",4.48441,2,"ambient","control","yes",455.333333333333,4,NA,"yes",113.833333333333,NA
 20,2021-05-03,6.8655,"2_after watering","no",4.48441,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 20,2021-05-06,6.524,"1_before watering","no",4.48441,2,"ambient","control","yes",341.5,3,113.833333333333,"no",113.833333333333,NA
 20,2021-05-06,6.8815,"2_after watering","no",4.48441,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
@@ -63,7 +63,7 @@
 20,2021-05-31,6.1085,"2_after watering","no",4.48441,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 20,2021-06-01,6.034,"1_before watering","no",4.48441,2,"ambient","control","yes",74.5000000000005,1,74.5000000000005,"no",113.833333333333,NA
 23,2021-04-29,6.9055,"2_after watering","no",4.43329,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-23,2021-05-03,6.8915,"1_before watering","no",4.43329,2,"ambient","drought","yes",301.333333333333,4,NA,"yes",75.3333333333333,NA
+23,2021-05-03,6.59416666666667,"1_before watering","no",4.43329,2,"ambient","drought","yes",301.333333333333,4,NA,"yes",75.3333333333333,NA
 23,2021-05-03,6.8955,"2_after watering","no",4.43329,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 23,2021-05-06,6.6695,"1_before watering","no",4.43329,2,"ambient","drought","yes",226,3,75.3333333333333,"no",75.3333333333333,NA
 23,2021-05-06,6.961,"2_after watering","no",4.43329,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -77,7 +77,7 @@
 23,2021-05-24,5.653,"1_before watering","no",4.43329,2,"ambient","drought","yes",261,4,65.25,"no",75.3333333333333,NA
 23,2021-05-27,5.5275,"1_before watering","no",4.43329,2,"ambient","drought","yes",125.5,3,41.8333333333332,"no",75.3333333333333,NA
 24,2021-04-29,7.3195,"2_after watering","no",4.64498,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-24,2021-05-03,7.293,"1_before watering","no",4.64498,2,"ambient","drought","yes",198.666666666667,4,NA,"yes",49.6666666666667,NA
+24,2021-05-03,7.09833333333333,"1_before watering","no",4.64498,2,"ambient","drought","yes",198.666666666667,4,NA,"yes",49.6666666666667,NA
 24,2021-05-03,7.297,"2_after watering","no",4.64498,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 24,2021-05-06,7.148,"1_before watering","no",4.64498,2,"ambient","drought","yes",149,3,49.6666666666667,"no",49.6666666666667,NA
 24,2021-05-06,7.3705,"2_after watering","no",4.64498,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -108,7 +108,7 @@
 25,2021-05-31,5.444,"1_before watering","no",4.26597,1,"elevated","drought","yes",90.5000000000005,4,22.6250000000001,"no",NA,NA
 25,2021-06-03,5.389,"1_before watering","no",4.26597,1,"elevated","drought","yes",54.9999999999997,3,18.3333333333332,"no",NA,NA
 28,2021-04-29,6.2355,"2_after watering","no",3.97424,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-28,2021-05-03,6.26,"1_before watering","no",3.97424,2,"ambient","drought","yes",370.666666666667,4,NA,"yes",92.6666666666668,NA
+28,2021-05-03,5.89333333333333,"1_before watering","no",3.97424,2,"ambient","drought","yes",370.666666666667,4,NA,"yes",92.6666666666668,NA
 28,2021-05-03,6.264,"2_after watering","no",3.97424,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 28,2021-05-06,5.986,"1_before watering","no",3.97424,2,"ambient","drought","yes",278,3,92.6666666666668,"no",92.6666666666668,NA
 28,2021-05-06,6.339,"2_after watering","no",3.97424,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -124,7 +124,7 @@
 28,2021-05-31,5.04,"1_before watering","no",3.97424,2,"ambient","drought","yes",96.0000000000001,4,24,"no",92.6666666666668,NA
 28,2021-06-02,5.0025,"1_before watering","no",3.97424,2,"ambient","drought","yes",37.4999999999996,2,18.7499999999998,"no",92.6666666666668,NA
 31,2021-04-29,6.725,"2_after watering","no",4.46794,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
-31,2021-05-03,6.643,"1_before watering","no",4.46794,2,"ambient","control","yes",464,4,NA,"yes",116,116.833333333333
+31,2021-05-03,6.183,"1_before watering","no",4.46794,2,"ambient","control","yes",464,4,NA,"yes",116,116.833333333333
 31,2021-05-03,6.647,"2_after watering","no",4.46794,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 31,2021-05-06,6.299,"1_before watering","no",4.46794,2,"ambient","control","yes",348,3,116,"no",116,116.833333333333
 31,2021-05-06,6.678,"2_after watering","no",4.46794,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
@@ -148,7 +148,7 @@
 31,2021-06-06,6.44331818181818,"2_after watering","yes",4.46794,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 31,2021-06-07,6.1105,"1_before watering","no",4.46794,2,"ambient","control","yes",332.818181818181,1,332.818181818181,"no",116,116.833333333333
 33,2021-04-29,6.2685,"2_after watering","no",3.8724,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-33,2021-05-03,6.26,"1_before watering","no",3.8724,2,"ambient","drought","yes",336.666666666667,4,NA,"yes",84.1666666666668,NA
+33,2021-05-03,5.92733333333333,"1_before watering","no",3.8724,2,"ambient","drought","yes",336.666666666667,4,NA,"yes",84.1666666666668,NA
 33,2021-05-03,6.264,"2_after watering","no",3.8724,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 33,2021-05-06,6.0115,"1_before watering","no",3.8724,2,"ambient","drought","yes",252.5,3,84.1666666666668,"no",84.1666666666668,NA
 33,2021-05-06,6.3345,"2_after watering","no",3.8724,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -175,7 +175,7 @@
 35,2021-05-24,5.934,"1_before watering","no",4.03387,1,"elevated","drought","yes",322.999999999999,4,80.7499999999999,"no",NA,NA
 35,2021-05-27,5.656,"1_before watering","no",4.03387,1,"elevated","drought","yes",278,3,92.6666666666668,"no",NA,NA
 41,2021-04-29,6.5085,"2_after watering","no",4.02709,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-41,2021-05-03,6.4965,"1_before watering","no",4.02709,2,"ambient","drought","yes",128.666666666666,4,NA,"yes",32.1666666666666,NA
+41,2021-05-03,6.37183333333333,"1_before watering","no",4.02709,2,"ambient","drought","yes",128.666666666666,4,NA,"yes",32.1666666666666,NA
 41,2021-05-03,6.5005,"2_after watering","no",4.02709,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 41,2021-05-06,6.404,"1_before watering","no",4.02709,2,"ambient","drought","yes",96.4999999999998,3,32.1666666666666,"no",32.1666666666666,NA
 41,2021-05-06,6.561,"2_after watering","no",4.02709,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -189,7 +189,7 @@
 41,2021-05-24,5.774,"1_before watering","no",4.02709,2,"ambient","drought","yes",318,4,79.4999999999999,"no",32.1666666666666,NA
 41,2021-05-27,5.587,"1_before watering","no",4.02709,2,"ambient","drought","yes",187,3,62.3333333333334,"no",32.1666666666666,NA
 42,2021-04-29,6.6465,"2_after watering","no",4.0928,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
-42,2021-05-03,6.621,"1_before watering","no",4.0928,2,"ambient","control","yes",310.666666666666,4,NA,"yes",77.6666666666666,NA
+42,2021-05-03,6.31433333333333,"1_before watering","no",4.0928,2,"ambient","control","yes",310.666666666666,4,NA,"yes",77.6666666666666,NA
 42,2021-05-03,6.625,"2_after watering","no",4.0928,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 42,2021-05-06,6.392,"1_before watering","no",4.0928,2,"ambient","control","yes",233,3,77.6666666666666,"no",77.6666666666666,NA
 42,2021-05-06,6.6785,"2_after watering","no",4.0928,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
@@ -291,7 +291,7 @@
 61,2021-06-09,6.76,"2_after watering","no",4.01986,1,"elevated","control","yes",NA,NA,NA,"no",NA,NA
 61,2021-06-10,6.6605,"1_before watering","no",4.01986,1,"elevated","control","yes",99.4999999999999,1,99.4999999999999,"no",NA,130.666666666666
 64,2021-04-29,6.66505,"2_after watering","yes",4.54853,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
-64,2021-05-03,6.8015,"1_before watering","no",4.54853,2,"ambient","control","yes",332.000000000001,4,NA,"yes",83.0000000000002,161
+64,2021-05-03,6.4735,"1_before watering","no",4.54853,2,"ambient","control","yes",332.000000000001,4,NA,"yes",83.0000000000002,161
 64,2021-05-03,6.8055,"2_after watering","no",4.54853,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 64,2021-05-06,6.5565,"1_before watering","no",4.54853,2,"ambient","control","yes",249.000000000001,3,83.0000000000002,"no",83.0000000000002,161
 64,2021-05-06,6.8765,"2_after watering","no",4.54853,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
@@ -349,7 +349,7 @@
 69,2021-05-24,6.63,"1_before watering","no",5.00776,1,"elevated","drought","yes",317,4,79.25,"no",NA,NA
 69,2021-05-27,6.3515,"1_before watering","no",5.00776,1,"elevated","drought","yes",278.5,3,92.8333333333334,"no",NA,NA
 75,2021-04-29,6.9595,"2_after watering","no",4.8034,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-75,2021-05-03,6.996,"1_before watering","no",4.8034,2,"ambient","drought","yes",438,4,NA,"yes",109.5,NA
+75,2021-05-03,6.562,"1_before watering","no",4.8034,2,"ambient","drought","yes",438,4,NA,"yes",109.5,NA
 75,2021-05-03,7,"2_after watering","no",4.8034,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 75,2021-05-06,6.6715,"1_before watering","no",4.8034,2,"ambient","drought","yes",328.5,3,109.5,"no",109.5,NA
 75,2021-05-06,7.026,"2_after watering","no",4.8034,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -363,7 +363,7 @@
 75,2021-05-24,6.0045,"1_before watering","no",4.8034,2,"ambient","drought","yes",267.5,4,66.875,"no",109.5,NA
 75,2021-05-27,5.8955,"1_before watering","no",4.8034,2,"ambient","drought","yes",109,3,36.3333333333333,"no",109.5,NA
 77,2021-04-29,7.727,"2_after watering","no",5.04364,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-77,2021-05-03,7.703,"1_before watering","no",5.04364,2,"ambient","drought","yes",262.666666666667,4,NA,"yes",65.6666666666667,NA
+77,2021-05-03,7.44433333333333,"1_before watering","no",5.04364,2,"ambient","drought","yes",262.666666666667,4,NA,"yes",65.6666666666667,NA
 77,2021-05-03,7.707,"2_after watering","no",5.04364,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 77,2021-05-06,7.51,"1_before watering","no",5.04364,2,"ambient","drought","yes",197,3,65.6666666666667,"no",65.6666666666667,NA
 77,2021-05-06,7.782,"2_after watering","no",5.04364,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -379,7 +379,7 @@
 77,2021-05-31,6.4375,"1_before watering","no",5.04364,2,"ambient","drought","yes",212.5,4,53.1250000000001,"no",65.6666666666667,NA
 77,2021-06-02,6.3325,"1_before watering","no",5.04364,2,"ambient","drought","yes",105,2,52.5000000000002,"no",65.6666666666667,NA
 80,2021-04-29,7.1895,"2_after watering","no",4.68694,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
-80,2021-05-03,7.1915,"1_before watering","no",4.68694,2,"ambient","control","yes",102.666666666667,4,NA,"yes",25.6666666666667,132.5
+80,2021-05-03,7.09283333333333,"1_before watering","no",4.68694,2,"ambient","control","yes",102.666666666667,4,NA,"yes",25.6666666666667,132.5
 80,2021-05-03,7.1955,"2_after watering","no",4.68694,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
 80,2021-05-06,7.1185,"1_before watering","no",4.68694,2,"ambient","control","yes",77,3,25.6666666666667,"no",25.6666666666667,132.5
 80,2021-05-06,7.2545,"2_after watering","no",4.68694,2,"ambient","control","yes",NA,NA,NA,"no",NA,NA
@@ -458,7 +458,7 @@
 104,2021-05-24,6.5315,"1_before watering","no",4.84869,1,"elevated","drought","yes",648,7,92.5714285714285,"no",NA,NA
 104,2021-05-27,6.2845,"1_before watering","no",4.84869,1,"elevated","drought","yes",247,3,82.3333333333333,"no",NA,NA
 107,2021-04-29,7.2035,"2_after watering","no",4.58607,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-107,2021-05-03,7.1875,"1_before watering","no",4.58607,2,"ambient","drought","yes",232.666666666666,4,NA,"yes",58.1666666666664,NA
+107,2021-05-03,6.95883333333333,"1_before watering","no",4.58607,2,"ambient","drought","yes",232.666666666666,4,NA,"yes",58.1666666666664,NA
 107,2021-05-03,7.1915,"2_after watering","no",4.58607,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 107,2021-05-06,7.017,"1_before watering","no",4.58607,2,"ambient","drought","yes",174.499999999999,3,58.1666666666664,"no",58.1666666666664,NA
 107,2021-05-06,7.261,"2_after watering","no",4.58607,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
@@ -509,7 +509,7 @@
 112,2021-05-31,5.733,"1_before watering","no",4.28681,1,"elevated","drought","yes",220.5,4,55.1250000000001,"no",NA,NA
 112,2021-06-03,5.6125,"1_before watering","no",4.28681,1,"elevated","drought","yes",120.5,3,40.1666666666666,"no",NA,NA
 116,2021-04-29,7.1125,"2_after watering","no",4.51913,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
-116,2021-05-03,7.101,"1_before watering","no",4.51913,2,"ambient","drought","yes",217.333333333334,4,NA,"yes",54.3333333333334,NA
+116,2021-05-03,6.88766666666667,"1_before watering","no",4.51913,2,"ambient","drought","yes",217.333333333334,4,NA,"yes",54.3333333333334,NA
 116,2021-05-03,7.105,"2_after watering","no",4.51913,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
 116,2021-05-06,6.942,"1_before watering","no",4.51913,2,"ambient","drought","yes",163,3,54.3333333333334,"no",54.3333333333334,NA
 116,2021-05-06,7.1675,"2_after watering","no",4.51913,2,"ambient","drought","yes",NA,NA,NA,"no",NA,NA
