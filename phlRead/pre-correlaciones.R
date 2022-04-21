@@ -1,28 +1,25 @@
-#### read the data ####
+### load libraries ####
+library(googledrive)
+library(lubridate)
+library(tidyverse)
+library(ggplot2)
+# you will probably also need
+library(readxl)
 
 # download files in your local directory
-# OBS! We are only downloading the first sheet and saving it as a *.csv
-# where it says "phlData" the name of the folder where you will store your data
-# the first time you use this package you will be promted with an authorization
-# it is important to add the command overwrite = TRUE in case anything change!
+
 googledrive::drive_download(file = "morpho_merged",
-                            path = "phlData/morpho_merged.csv", overwrite = TRUE)
+                            path = "C:/calculostfg/datostfg/morpho_merged.csv", overwrite = TRUE)
 googledrive::drive_download(file = "sampling_cleaned",
-                            path = "phlData/sampling_clean.csv", overwrite = TRUE)
+                            path = "C:/calculostfg/datostfg/sampling_clean.csv", overwrite = TRUE)
 googledrive::drive_download(file = "area_SLA_photos",
-                            path = "phlData/area_SLA_photos.csv", overwrite = TRUE)
-# do NOT open these files with excel
-# if you want to open and explore these files with excel, make a copy and open the copy
+                            path = "C:/calculostfg/datostfg/area_SLA_photos.csv", overwrite = TRUE)
 
 # read the data from the downloaded files
-# if you continue to have trouble reading *.csv files, download the files as *.xls
-morpho <- read.csv('phlData/morpho_merged.csv')
+morpho <- read.csv('C:/calculostfg/datostfg/morpho_merged.csv')
 # the file sampling_clean and sla do NOT have the columns campaign, phyto, etc.
-sampling <- read.csv('phlData/sampling_clean.csv')
-sla <- read.csv("phlData/area_SLA_photos.csv")
-# explore the data
-# make sure that numeric variables are identified as such
-# descriptions of variables and their units can be found on the file in google drive
+sampling <- read.csv('C:/calculostfg/datostfg/sampling_clean.csv')
+sla <- read.csv("C:/calculostfg/datostfg/area_SLA_photos.csv")
 
 ### organize and clean the data ###
 
@@ -33,6 +30,8 @@ morpho[which(morpho$n_days == 9999), 'n_days'] <- NA
 # give a different name to column "OBS"
 morpho <- morpho %>% rename(OBS_morpho = OBS)
 # check the file
+#View(morpho)
+#str(morpho)
 
 # similar approach for the object sampling
 sampling[which(sampling$long_Shist == 9999), c('long_Shist', 'diam_Shist', 'FW_Shist')] <- NA
@@ -49,7 +48,8 @@ sampling[which(sampling$FW_SNSC == 9999), 'FW_SNSC'] <- NA
 # rename column "ID_plant"
 sampling <- sampling %>% rename(id_plant = ID_plant)
 #check the file
-
+#View(sampling)
+#str(sampling)
 # same for SLA area
 sla[which(sla$area_sla_leaves == 999999), 'area_sla_leaves'] <- NA
 sla <- sla %>% rename(id_plant = ID_plant)
@@ -59,7 +59,13 @@ sla <- sla %>% rename(id_plant = ID_plant)
 morpho_biomass <- sampling %>%
   left_join(sla, by = 'id_plant') %>% 
   left_join(morpho, by = 'id_plant')
-# check the file
+
+#calculate the average diameters
+morpho_biomass$diam_i_avg <- rowMeans(morpho_biomass[, c('initial_stem_width_1_cm', 'initial_stem_width_2_cm')])
+morpho_biomass$diam_f_avg <- rowMeans(morpho_biomass[, c('stem_width_1_cm', 'stem_width_2_cm')])
+
+# calculate specific leaf area in g cm-2
+morpho_biomass$sla <- morpho_biomass$area_sla_leaves*0.01/morpho_biomass$DW_10LSLA
 
 ## export merged file to csv files (change file location accordingly)
-write.csv(morpho_biomass, file = 'phlData/morpho_biomass.csv', row.names = F)
+write.csv(morpho_biomass, file = 'C:/calculostfg/datostfg/morpho_biomass.csv', row.names = F)
