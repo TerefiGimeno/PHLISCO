@@ -42,9 +42,20 @@ weight_after_means <- potW %>%
   group_by(id_plant) %>% 
   summarise(weight_after_mean = mean(weight_kg, na.rm = T),
             weight_after_se = s.err.na(weight_kg),
+            N_weight_after = lengthWithoutNA(weight_kg)) %>% 
+  filter(id_plant != 31 & id_plant != 54 & id_plant != 64)
+# some plants mysteriously lost weight after 24-5-21
+weight_after_means2 <- potW %>% 
+  filter(timing == "2_after watering" & date >= as.Date("2021-05-24")) %>%
+  filter(id_plant == 31 | id_plant == 54 | id_plant == 64) %>% 
+  group_by(id_plant) %>% 
+  summarise(weight_after_mean = mean(weight_kg, na.rm = T),
+            weight_after_se = s.err.na(weight_kg),
             N_weight_after = lengthWithoutNA(weight_kg))
+weight_after_means <- weight_after_means %>% 
+  bind_rows(weight_after_means2)
 # have a look at the data
-View(weight_after_means)
+#View(weight_after_means)
 # small se per plot and we have at least 5 measurements per plot
 # merge with potW
 potW <- potW %>%
@@ -68,8 +79,8 @@ drySoilsWithPlant <- drySoils %>% filter(id_plant <= 120) %>%
 potW <- left_join(potW, drySoilsWithPlant, by = 'id_plant')
 potW$plant_in_pot <- 'yes'
 head(potW)
-str(potW)
-View(potW)
+# str(potW)
+# View(potW)
 
 labelsSoilPots <- read.csv('phlData/labels_pots_with_soil.csv')
 drySoilsOnly <- drySoils %>% filter(id_plant >= 121) %>% 
@@ -78,8 +89,8 @@ drySoilsOnly <- drySoils %>% filter(id_plant >= 121) %>%
 soilPotW <- left_join(soilPotW, drySoilsOnly, by = 'id_plant')
 soilPotW$plant_in_pot <- 'no'
 head(soilPotW)
-str(soilPotW)
-View(soilPotW)
+# str(soilPotW)
+# View(soilPotW)
 
 # now merge the biomass data using similar code
 # this time, let's incorporate root fresh weight into the calculations
@@ -93,7 +104,7 @@ View(soilPotW)
 transp <- potW %>% select(-c(water_plate, OBS_weight, treatment_h2o, weight_after_mean))
 # order the file
 transp <- doBy::orderBy(~ id_plant + date + timing, data = transp)
-View(transp)
+#(transp)
 # make sure the order is what it should look like
 # calculate weight loss in between dates
 # the ifelse function runs a test and depending on the results assigns a value or another
@@ -155,6 +166,8 @@ transp$weight_kg <- ifelse(is.na(transp$weight_kg) & transp$date == as.Date("202
 # exclude daily transpiration rates calculated using estimated weights for further analyses:
 transp$daily_transp <- ifelse(transp$estimated_weight_before == 'yes', NA, transp$daily_transp)
 transp$daily_transp <- ifelse(transp$date == as.Date('2021-06-07'), NA, transp$daily_transp)
+# get rid of a value calculated after a plant measured too early in the day
+transp[which(transp$id_plant == 20 & transp$date == as.Date("2021-06-01")), 'daily_transp'] <- NA
 
 write.csv(transp, file ='transp.csv', row.names = F)
 # calculate cumulative transpiration 8E) and daily mean E over the entire period (29 or 30 April until harvest date):
@@ -164,10 +177,100 @@ transp_summ <- transp %>%
             E_rate_mean = mean(daily_transp, na.rm = T), E_rate_se = s.err.na(daily_transp),
             E_rate_n = lengthWithoutNA(daily_transp))
 
-# plot by treatment only plots with plant
+# plot by treatment only pots with plant
 plantE <- subset(transp, id_plant <= 120)
 plot(plantE$increment_g ~ plantE$date, pch = 19, col = as.factor(plantE$water_treatment))
 legend('topright', legend = levels(as.factor(plantE$water_treatment)), pch = 19, bty = 'n',
        col = c('black', 'red'))
 # export to excel the file with transpiration data
 write.csv(transp, file = 'phlData/trasnpiration_calculations.csv', row.names = F)
+
+#para las hojas LNSC no tenemos datos de peso seco, por lo que hay que estimarlo haciendo una regla de tres con los pesos seco y fresco totales de hojas
+#para ello creo la variable est_DW_LNSC
+morpho_biomass$est_DW_LNSC <- (morpho_biomass$FW_10LNSC*morpho_biomass$DW_L)*(morpho_biomass$FW_L^-1)
+
+#crear la variable del peso seco total de hojas
+morpho_biomass$tot_DW_L <- rowSums(morpho_biomass[, c('est_DW_LNSC', 'DW_L1phl', 'DW_L2phl', 'DW_L3phl', 'DW_10LSLA', 'DW_L')], na.rm = T)
+
+# calculate SLA
+morpho_biomass <- morpho_biomass %>% 
+  mutate(sla = area_sla_leaves*0.01/morpho_biomass$DW_10LSLA)
+
+#calcular area foliar total de cada planta
+morpho_biomass$tot_area_leaves <- morpho_biomass$tot_DW_L*morpho_biomass$sla
+#crear data frame solo con id_plant y area foliar total (y poner los nombres bien)
+tot_area_leaves_df <-data.frame(morpho_biomass$id_plant,morpho_biomass$tot_area_leaves)
+
+tot_area_leaves_df <- tot_area_leaves_df %>% rename(id_plant = morpho_biomass.id_plant)
+tot_area_leaves_df <- tot_area_leaves_df %>% rename(tot_area_leaves = morpho_biomass.tot_area_leaves)
+
+transp2 <- transp %>%
+  select(c(1,2,7,8,9,12,13)) %>% 
+  filter(!daily_transp == "NA") %>% 
+  group_by (id_plant) %>% 
+  mutate(day_cum = cumsum(day_incr))
+
+#View(transp2)
+
+transp_and_area <- transp2 %>%
+  left_join(tot_area_leaves_df, by = 'id_plant')
+
+####calcular transpiracion diaria por unidad de area foliar (g/cm^2)####
+
+transp_and_area$daily_transp_per_area <- 
+  transp_and_area$daily_transp/transp_and_area$tot_area_leaves
+
+transp_and_area <- transp_and_area %>% 
+  mutate(daily_E_mol.m2 = (daily_transp/18)/(tot_area_leaves*0.0001))
+
+hist(transp_and_area$daily_transp_per_area)
+hist(transp_and_area$daily_E_mol.m2)
+
+#create a variable that combines water and CO2 treatment
+transp_and_area$water_co2 <- paste0(transp_and_area$treatment_co2, '_', transp_and_area$water_treatment)
+
+transp_and_area$doy <- yday(transp_and_area$date)
+
+# plot individual raw data per treatment combination:
+windows(12, 8)
+ggplot(transp_and_area, aes(x = doy, y = daily_E_mol.m2, color = as.factor(id_plant), group = as.factor(id_plant))) +
+  geom_line() +
+  facet_grid(~water_co2) +
+  ylab(expression(italic(E)~(mol~m^-2~day^-1))) +
+  xlab('DOY')
+
+# boxplots of raw data per treatment combination:
+# a little cheat to have a boxplot per day
+transp_and_area$doy_f <- as.factor(yday(transp_and_area$date))
+windows(12, 8)
+ggplot(transp_and_area, aes(x = doy_f, y = daily_E_mol.m2)) +
+  geom_boxplot() +
+  facet_grid(~water_co2) +
+  ylab(expression(italic(E)~(mol~m^-2~day^-1))) +
+  xlab('')
+
+####Agrupar los daily_transp por tratamientos(co2 y h2o) y dias (day_cum)####
+
+transp_and_area_groups <- transp_and_area %>%
+  group_by (treatment_co2, water_treatment, date) %>%
+  summarize (E_mean = mean (daily_E_mol.m2, na.rm=T),
+             E_sd = sd(daily_E_mol.m2, na.rm=T),
+             E_se = s.err.na(daily_E_mol.m2),
+             E_n = lengthWithoutNA(daily_E_mol.m2))
+
+# create a variable indicated number of days since start of measurements
+transp_and_area_groups <- transp_and_area_groups %>% 
+  mutate(n_day = ifelse(treatment_co2 == "ambient", yday(date) - yday(as.Date("2021-04-29")),
+                        yday(date) - yday(as.Date("2021-04-30"))))
+# now plot:
+windows(12, 8)
+ggplot(transp_and_area_groups, aes(x = n_day, y = E_mean, shape = water_treatment)) +
+  geom_errorbar(aes(ymin = E_mean - E_se, ymax = E_mean + E_se), width = 0.1) +
+  geom_line(aes(color = water_treatment)) +
+  geom_point(aes(color = water_treatment)) +
+  scale_shape_manual(values = c(19, 15)) +
+  scale_color_manual(values = c('blue', 'red')) +
+  facet_grid(~treatment_co2) +
+  ylab(expression(italic(E)~(mol~m^-2~day^-1))) +
+  xlab('Number days since start') +
+  theme_classic()

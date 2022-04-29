@@ -4,12 +4,10 @@ source('scriptstfg/4_read_weight_pots.R')
 
 ##a) ANOVA de dos vias de transpiraciones DIARIAS los dias 12 y 13 de mayo ####
 
-#crear data frame con los datos de hasta el 12-13 de mayo 
-transp_12_13 <- transp_and_area %>% 
+#crear data frame con los datos de hasta el 12-13 de mayo
+# you can do this in a single step
+transp_12_13_day <- transp_and_area %>% 
   filter(date <= as.Date("2021-05-13"))
-
-transp_12_13_day <- transp_12_13 %>% 
-  filter(date >= as.Date("2021-05-12"))
 
 #Hacer boxplot
 library(ggplot2)
@@ -50,6 +48,8 @@ leveneTest(daily_E_mol.m2 ~ treatment_co2 * water_treatment, data = transp_12_13
 
 #calcular incrementos acumulados
 
+
+# this is wrong! Remember we got rid of estimates 
 transp_12_13 <- transp_12_13 %>%
   group_by (id_plant) %>% 
   mutate(cum_increment_g = cumsum(increment_g))
