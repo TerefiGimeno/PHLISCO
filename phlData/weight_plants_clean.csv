@@ -8,12 +8,12 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 33,20210429,6.2685,2_after watering,presumably no,nothing
 41,20210429,6.5085,2_after watering,presumably no,nothing
 42,20210429,6.6465,2_after watering,presumably no,nothing
+64,20210429,999,2_after watering,presumably no,missing record
 75,20210429,6.9595,2_after watering,presumably no,nothing
 77,20210429,7.727,2_after watering,presumably no,nothing
 80,20210429,7.1895,2_after watering,presumably no,nothing
 107,20210429,7.2035,2_after watering,presumably no,nothing
 116,20210429,7.1125,2_after watering,presumably no,nothing
-64,20210429,999,2_after watering,presumably no,missing record
 6,20210430,7.155,2_after watering,presumably no,nothing
 14,20210430,6.643,2_after watering,presumably no,nothing
 25,20210430,6.7525,2_after watering,presumably no,nothing
@@ -30,660 +30,660 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 111,20210430,7.0995,2_after watering,presumably no,nothing
 112,20210430,6.811,2_after watering,presumably no,nothing
 3,20210503,999,1_before watering,presumably no,missing record
-20,20210503,999,1_before watering,presumably no,missing record
-23,20210503,999,1_before watering,presumably no,missing record
-24,20210503,999,1_before watering,presumably no,missing record
-28,20210503,999,1_before watering,presumably no,missing record
-31,20210503,999,1_before watering,presumably no,missing record
-33,20210503,999,1_before watering,presumably no,missing record
-41,20210503,999,1_before watering,presumably no,missing record
-42,20210503,999,1_before watering,presumably no,missing record
-64,20210503,999,1_before watering,presumably no,missing record
-75,20210503,999,1_before watering,presumably no,missing record
-77,20210503,999,1_before watering,presumably no,missing record
-80,20210503,999,1_before watering,presumably no,missing record
-107,20210503,999,1_before watering,presumably no,missing record
-116,20210503,999,1_before watering,presumably no,missing record
 3,20210503,6.73,2_after watering,presumably no,nothing
+20,20210503,999,1_before watering,presumably no,missing record
 20,20210503,6.8655,2_after watering,presumably no,nothing
+23,20210503,999,1_before watering,presumably no,missing record
 23,20210503,6.8955,2_after watering,presumably no,nothing
+24,20210503,999,1_before watering,presumably no,missing record
 24,20210503,7.2970,2_after watering,presumably no,nothing
+28,20210503,999,1_before watering,presumably no,missing record
 28,20210503,6.2640,2_after watering,presumably no,nothing
+31,20210503,999,1_before watering,presumably no,missing record
 31,20210503,6.6470,2_after watering,presumably no,nothing
+33,20210503,999,1_before watering,presumably no,missing record
 33,20210503,6.2640,2_after watering,presumably no,nothing
+41,20210503,999,1_before watering,presumably no,missing record
 41,20210503,6.5005,2_after watering,presumably no,nothing
+42,20210503,999,1_before watering,presumably no,missing record
 42,20210503,6.6250,2_after watering,presumably no,nothing
+64,20210503,999,1_before watering,presumably no,missing record
 64,20210503,6.8055,2_after watering,presumably no,nothing
+75,20210503,999,1_before watering,presumably no,missing record
 75,20210503,7,2_after watering,presumably no,nothing
+77,20210503,999,1_before watering,presumably no,missing record
 77,20210503,7.7070,2_after watering,presumably no,nothing
+80,20210503,999,1_before watering,presumably no,missing record
 80,20210503,7.1955,2_after watering,presumably no,nothing
+107,20210503,999,1_before watering,presumably no,missing record
 107,20210503,7.1915,2_after watering,presumably no,nothing
+116,20210503,999,1_before watering,presumably no,missing record
 116,20210503,7.1050,2_after watering,presumably no,nothing
 6,20210504,7.1925,2_after watering,presumably no,nothing
-14,20210504,6.721,2_after watering,presumably no,nothing
-25,20210504,6.729,2_after watering,presumably no,nothing
-35,20210504,6.618,2_after watering,presumably no,nothing
-46,20210504,6.6505,2_after watering,presumably no,nothing
-50,20210504,6.8615,2_after watering,presumably no,nothing
-54,20210504,6.3285,2_after watering,presumably no,nothing
-61,20210504,6.704,2_after watering,presumably no,nothing
-68,20210504,6.808,2_after watering,presumably no,nothing
-69,20210504,7.149,2_after watering,no,nothing
-89,20210504,7.4995,2_after watering,presumably no,nothing
-101,20210504,7.097,2_after watering,presumably no,nothing
-104,20210504,7.386,2_after watering,presumably no,nothing
-111,20210504,7.0945,2_after watering,presumably no,nothing
-112,20210504,6.8235,2_after watering,presumably no,nothing
 6,20210504,6.9465,1_before watering,presumably no,nothing
+14,20210504,6.721,2_after watering,presumably no,nothing
 14,20210504,6.3685,1_before watering,presumably no,nothing
+25,20210504,6.729,2_after watering,presumably no,nothing
 25,20210504,6.3835,1_before watering,presumably no,nothing
+35,20210504,6.618,2_after watering,presumably no,nothing
 35,20210504,6.413,1_before watering,presumably no,nothing
+46,20210504,6.6505,2_after watering,presumably no,nothing
 46,20210504,6.5345,1_before watering,presumably no,nothing
+50,20210504,6.8615,2_after watering,presumably no,nothing
 50,20210504,6.5435,1_before watering,presumably no,nothing
+54,20210504,6.3285,2_after watering,presumably no,nothing
 54,20210504,6.195,1_before watering,presumably no,nothing
+61,20210504,6.704,2_after watering,presumably no,nothing
 61,20210504,6.383,1_before watering,presumably no,nothing
+68,20210504,6.808,2_after watering,presumably no,nothing
 68,20210504,6.4595,1_before watering,presumably no,nothing
+69,20210504,7.149,2_after watering,no,nothing
 69,20210504,6.816,1_before watering,presumably no,nothing
+89,20210504,7.4995,2_after watering,presumably no,nothing
 89,20210504,7.327,1_before watering,presumably no,nothing
+101,20210504,7.097,2_after watering,presumably no,nothing
 101,20210504,6.7845,1_before watering,presumably no,nothing
+104,20210504,7.386,2_after watering,presumably no,nothing
 104,20210504,7.097,1_before watering,presumably no,nothing
+111,20210504,7.0945,2_after watering,presumably no,nothing
 111,20210504,6.942,1_before watering,presumably no,nothing
+112,20210504,6.8235,2_after watering,presumably no,nothing
 112,20210504,6.593,1_before watering,presumably no,nothing
 3,20210506,6.802,2_after watering,presumably no,nothing
+3,20210506,6.6825,1_before watering,presumably no,nothing
 20,20210506,6.8815,2_after watering,no,nothing
+20,20210506,6.524,1_before watering,presumably no,nothing
 23,20210506,6.961,2_after watering,presumably no,nothing
+23,20210506,6.6695,1_before watering,presumably no,nothing
 24,20210506,7.3705,2_after watering,presumably no,nothing
+24,20210506,7.148,1_before watering,presumably no,nothing
 28,20210506,6.339,2_after watering,presumably no,nothing
+28,20210506,5.986,1_before watering,presumably no,nothing
 31,20210506,6.678,2_after watering,no,nothing
+31,20210506,6.299,1_before watering,presumably no,nothing
 33,20210506,6.3345,2_after watering,presumably no,nothing
+33,20210506,6.0115,1_before watering,presumably no,nothing
 41,20210506,6.561,2_after watering,presumably no,nothing
+41,20210506,6.404,1_before watering,presumably no,nothing
 42,20210506,6.6785,2_after watering,presumably no,nothing
+42,20210506,6.392,1_before watering,presumably no,nothing
 64,20210506,6.8765,2_after watering,presumably no,nothing
+64,20210506,6.5565,1_before watering,presumably no,nothing
 75,20210506,7.026,2_after watering,presumably no,nothing
+75,20210506,6.6715,1_before watering,presumably no,nothing
 77,20210506,7.782,2_after watering,presumably no,nothing
+77,20210506,7.51,1_before watering,presumably no,nothing
 80,20210506,7.2545,2_after watering,presumably no,nothing
+80,20210506,7.1185,1_before watering,presumably no,nothing
 100,20210506,6.864,2_after watering,no,why is this record here?
 107,20210506,7.261,2_after watering,presumably no,nothing
-116,20210506,7.1675,2_after watering,presumably no,nothing
-121,20210506,6.117,2_after watering,presumably no,nothing
-122,20210506,5.534,2_after watering,presumably no,nothing
-123,20210506,6.5035,2_after watering,presumably no,nothing
-124,20210506,7.027,2_after watering,presumably no,nothing
-125,20210506,6.434,2_after watering,presumably no,nothing
-3,20210506,6.6825,1_before watering,presumably no,nothing
-20,20210506,6.524,1_before watering,presumably no,nothing
-23,20210506,6.6695,1_before watering,presumably no,nothing
-24,20210506,7.148,1_before watering,presumably no,nothing
-28,20210506,5.986,1_before watering,presumably no,nothing
-31,20210506,6.299,1_before watering,presumably no,nothing
-33,20210506,6.0115,1_before watering,presumably no,nothing
-41,20210506,6.404,1_before watering,presumably no,nothing
-42,20210506,6.392,1_before watering,presumably no,nothing
-64,20210506,6.5565,1_before watering,presumably no,nothing
-75,20210506,6.6715,1_before watering,presumably no,nothing
-77,20210506,7.51,1_before watering,presumably no,nothing
-80,20210506,7.1185,1_before watering,presumably no,nothing
 107,20210506,7.017,1_before watering,presumably no,nothing
+116,20210506,7.1675,2_after watering,presumably no,nothing
 116,20210506,6.942,1_before watering,presumably no,nothing
+121,20210506,6.117,2_after watering,presumably no,nothing
 121,20210506,5.8475,1_before watering,presumably no,nothing
+122,20210506,5.534,2_after watering,presumably no,nothing
 122,20210506,5.159,1_before watering,presumably no,nothing
+123,20210506,6.5035,2_after watering,presumably no,nothing
 123,20210506,6.141,1_before watering,presumably no,nothing
+124,20210506,7.027,2_after watering,presumably no,nothing
 124,20210506,6.7815,1_before watering,presumably no,nothing
+125,20210506,6.434,2_after watering,presumably no,nothing
 125,20210506,6.063,1_before watering,presumably no,nothing
-6,20210507,7.1695,2_after watering,yes,nothing
-14,20210507,6.8175,2_after watering,yes,nothing
-25,20210507,6.791,2_after watering,yes,nothing
-35,20210507,6.664,2_after watering,yes,nothing
-46,20210507,6.699,2_after watering,yes,nothing
-50,20210507,6.909,2_after watering,yes,nothing
-54,20210507,6.388,2_after watering,no,nothing
-61,20210507,6.767,2_after watering,yes,nothing
-68,20210507,6.803,2_after watering,yes,nothing
-69,20210507,7.2715,2_after watering,no,nothing
-89,20210507,7.5455,2_after watering,yes,nothing
-101,20210507,7.1505,2_after watering,presumably no,nothing
-104,20210507,7.436,2_after watering,presumably no,nothing
-111,20210507,7.1295,2_after watering,yes,nothing
-112,20210507,6.877,2_after watering,yes,nothing
-126,20210507,6.1745,2_after watering,yes,nothing
-127,20210507,6.148,2_after watering,presumably no,regada con 525 mL
-128,20210507,6.2495,2_after watering,yes,nothing
-129,20210507,6.4145,2_after watering,presumably no,nothing
-130,20210507,5.9985,2_after watering,yes,nothing
 3,20210507,6.7285,1_before watering,yes,nothing
+6,20210507,7.1695,2_after watering,yes,nothing
+6,20210507,7.0115,1_before watering,no,nothing
+14,20210507,6.8175,2_after watering,yes,nothing
+14,20210507,6.4915,1_before watering,no,nothing
 23,20210507,6.908,1_before watering,yes,nothing
 24,20210507,7.2885,1_before watering,yes,nothing
+25,20210507,6.791,2_after watering,yes,nothing
+25,20210507,6.425,1_before watering,no,nothing
 28,20210507,6.2715,1_before watering,no,nothing
 33,20210507,6.277,1_before watering,yes,nothing
+35,20210507,6.664,2_after watering,yes,nothing
+35,20210507,6.492,1_before watering,no,nothing
 41,20210507,6.511,1_before watering,yes,nothing
 42,20210507,6.62,1_before watering,yes,nothing
+46,20210507,6.699,2_after watering,yes,nothing
+46,20210507,6.5745,1_before watering,yes,nothing
+50,20210507,6.909,2_after watering,yes,nothing
+50,20210507,6.615,1_before watering,no,nothing
+54,20210507,6.388,2_after watering,no,nothing
+54,20210507,6.0225,1_before watering,no,nothing
+61,20210507,6.767,2_after watering,yes,nothing
+61,20210507,6.459,1_before watering,no,nothing
 64,20210507,6.8135,1_before watering,yes,nothing
+68,20210507,6.803,2_after watering,yes,nothing
+68,20210507,6.628,1_before watering,no,nothing
+69,20210507,7.2715,2_after watering,no,nothing
+69,20210507,6.8945,1_before watering,no,nothing
 75,20210507,6.946,1_before watering,no,nothing
 77,20210507,7.697,1_before watering,yes,nothing
 80,20210507,7.2015,1_before watering,yes,nothing
+89,20210507,7.5455,2_after watering,yes,nothing
+89,20210507,7.4125,1_before watering,yes,nothing
+101,20210507,7.1505,2_after watering,presumably no,nothing
+101,20210507,6.8135,1_before watering,no,nothing
+104,20210507,7.436,2_after watering,presumably no,nothing
+104,20210507,7.17,1_before watering,no,nothing
 107,20210507,7.172,1_before watering,yes,nothing
+111,20210507,7.1295,2_after watering,yes,nothing
+111,20210507,6.9525,1_before watering,no,nothing
+112,20210507,6.877,2_after watering,yes,nothing
+112,20210507,6.6905,1_before watering,no,nothing
 116,20210507,7.09,1_before watering,yes,nothing
 121,20210507,6.105,1_before watering,yes,nothing
 122,20210507,5.5095,1_before watering,no,nothing
 123,20210507,6.4695,1_before watering,no,nothing
 124,20210507,6.9555,1_before watering,yes,nothing
 125,20210507,6.3795,1_before watering,no,nothing
-6,20210507,7.0115,1_before watering,no,nothing
-14,20210507,6.4915,1_before watering,no,nothing
-25,20210507,6.425,1_before watering,no,nothing
-35,20210507,6.492,1_before watering,no,nothing
-46,20210507,6.5745,1_before watering,yes,nothing
-50,20210507,6.615,1_before watering,no,nothing
-54,20210507,6.0225,1_before watering,no,nothing
-61,20210507,6.459,1_before watering,no,nothing
-68,20210507,6.628,1_before watering,no,nothing
-69,20210507,6.8945,1_before watering,no,nothing
-89,20210507,7.4125,1_before watering,yes,nothing
-101,20210507,6.8135,1_before watering,no,nothing
-104,20210507,7.17,1_before watering,no,nothing
-111,20210507,6.9525,1_before watering,no,nothing
-112,20210507,6.6905,1_before watering,no,nothing
+126,20210507,6.1745,2_after watering,yes,nothing
 126,20210507,5.9075,1_before watering,no,nothing
+127,20210507,6.148,2_after watering,presumably no,regada con 525 mL
 127,20210507,5.8425,1_before watering,no,nothing
+128,20210507,6.2495,2_after watering,yes,nothing
 128,20210507,5.89,1_before watering,no,nothing
+129,20210507,6.4145,2_after watering,presumably no,nothing
 129,20210507,6.1535,1_before watering,no,nothing
+130,20210507,5.9985,2_after watering,yes,nothing
 130,20210507,5.7605,1_before watering,no,nothing
-6,20210510,7.0615,1_before watering,no,nothing
-14,20210510,6.4645,1_before watering,no,nothing
-25,20210510,6.5275,1_before watering,no,nothing
-35,20210510,6.5025,1_before watering,no,regada con 800 mL
-46,20210510,6.596,1_before watering,yes,nothing
-50,20210510,6.5675,1_before watering,no,nothing
-54,20210510,6.2295,1_before watering,no,nothing
-61,20210510,6.5135,1_before watering,no,nothing
-68,20210510,6.6505,1_before watering,no,regada con 800 mL
-69,20210510,7.161,1_before watering,no,nothing
-89,20210510,7.372,1_before watering,no,regada con 800 mL
-101,20210510,6.8435,1_before watering,no,nothing
-104,20210510,7.1735,1_before watering,no,regada con 800 mL
-111,20210510,7.045,1_before watering,no,regada con 800 mL
-112,20210510,6.6405,1_before watering,no,regada con 800 mL
-126,20210510,6.022,1_before watering,no,nothing
-127,20210510,5.953,1_before watering,no,nothing
-128,20210510,6.0555,1_before watering,no,nothing
-129,20210510,6.291,1_before watering,no,nothing
-130,20210510,5.924,1_before watering,no,nothing
 3,20210510,6.652,1_before watering,no,nothing
-20,20210510,6.374,1_before watering,no,nothing
-23,20210510,6.45,1_before watering,no,nothing
-24,20210510,7.14,1_before watering,no,nothing
-28,20210510,5.92,1_before watering,no,nothing
-31,20210510,6.317,1_before watering,no,nothing
-33,20210510,5.832,1_before watering,no,nothing
-41,20210510,6.389,1_before watering,no,nothing
-42,20210510,6.312,1_before watering,no,nothing
-64,20210510,6.47,1_before watering,no,nothing
-75,20210510,6.5975,1_before watering,no,nothing
-77,20210510,7.505,1_before watering,no,nothing
-80,20210510,7.084,1_before watering,no,nothing
-107,20210510,6.944,1_before watering,no,nothing
-116,20210510,6.676,1_before watering,no,nothing
-121,20210510,5.9795,1_before watering,no,nothing
-122,20210510,5.4005,1_before watering,no,nothing
-123,20210510,6.2735,1_before watering,no,nothing
-124,20210510,6.903,1_before watering,no,nothing
-125,20210510,6.26,1_before watering,no,nothing
-6,20210510,7.22,2_after watering,presumably no,nothing
-14,20210510,6.8245,2_after watering,presumably no,nothing
-25,20210510,6.885,2_after watering,presumably no,nothing
-35,20210510,6.7015,2_after watering,presumably no,nothing
-46,20210510,6.736,2_after watering,yes,lots of water in the plate
-50,20210510,6.9305,2_after watering,presumably no,nothing
-54,20210510,6.6025,2_after watering,presumably no,nothing
-61,20210510,6.8145,2_after watering,presumably no,nothing
-68,20210510,6.89,2_after watering,presumably no,nothing
-69,20210510,7.466,2_after watering,presumably no,nothing
-89,20210510,7.5505,2_after watering,presumably no,nothing
-101,20210510,7.1935,2_after watering,presumably no,nothing
-104,20210510,7.4655,2_after watering,presumably no,nothing
-111,20210510,7.3245,2_after watering,presumably no,nothing
-126,20210510,6.1415,2_after watering,presumably no,nothing
-127,20210510,6.2535,2_after watering,presumably no,nothing
-128,20210510,6.4215,2_after watering,presumably no,nothing
-129,20210510,6.41,2_after watering,presumably no,nothing
-130,20210510,6.035,2_after watering,presumably no,nothing
 3,20210510,6.8395,2_after watering,presumably no,nothing
+6,20210510,7.0615,1_before watering,no,nothing
+6,20210510,7.22,2_after watering,presumably no,nothing
+14,20210510,6.4645,1_before watering,no,nothing
+14,20210510,6.8245,2_after watering,presumably no,nothing
+20,20210510,6.374,1_before watering,no,nothing
 20,20210510,6.745,2_after watering,presumably no,nothing
+23,20210510,6.45,1_before watering,no,nothing
 23,20210510,6.829,2_after watering,presumably no,nothing
+24,20210510,7.14,1_before watering,no,nothing
 24,20210510,7.3935,2_after watering,presumably no,nothing
+25,20210510,6.5275,1_before watering,no,nothing
+25,20210510,6.885,2_after watering,presumably no,nothing
+28,20210510,5.92,1_before watering,no,nothing
 28,20210510,6.3105,2_after watering,presumably no,nothing
+31,20210510,6.317,1_before watering,no,nothing
 31,20210510,6.691,2_after watering,presumably no,nothing
+33,20210510,5.832,1_before watering,no,nothing
 33,20210510,6.22,2_after watering,presumably no,nothing
+35,20210510,6.5025,1_before watering,no,regada con 800 mL
+35,20210510,6.7015,2_after watering,presumably no,nothing
+41,20210510,6.389,1_before watering,no,nothing
 41,20210510,6.5875,2_after watering,presumably no,nothing
+42,20210510,6.312,1_before watering,no,nothing
 42,20210510,6.6685,2_after watering,presumably no,nothing
+46,20210510,6.596,1_before watering,yes,nothing
+46,20210510,6.736,2_after watering,yes,lots of water in the plate
+50,20210510,6.5675,1_before watering,no,nothing
+50,20210510,6.9305,2_after watering,presumably no,nothing
+54,20210510,6.2295,1_before watering,no,nothing
+54,20210510,6.6025,2_after watering,presumably no,nothing
+61,20210510,6.5135,1_before watering,no,nothing
+61,20210510,6.8145,2_after watering,presumably no,nothing
+64,20210510,6.47,1_before watering,no,nothing
 64,20210510,6.8335,2_after watering,presumably no,nothing
+68,20210510,6.6505,1_before watering,no,regada con 800 mL
+68,20210510,6.89,2_after watering,presumably no,nothing
+69,20210510,7.161,1_before watering,no,nothing
+69,20210510,7.466,2_after watering,presumably no,nothing
+75,20210510,6.5975,1_before watering,no,nothing
 75,20210510,6.986,2_after watering,presumably no,nothing
+77,20210510,7.505,1_before watering,no,nothing
 77,20210510,7.8075,2_after watering,presumably no,nothing
+80,20210510,7.084,1_before watering,no,nothing
 80,20210510,7.2775,2_after watering,presumably no,nothing
+89,20210510,7.372,1_before watering,no,regada con 800 mL
+89,20210510,7.5505,2_after watering,presumably no,nothing
+101,20210510,6.8435,1_before watering,no,nothing
+101,20210510,7.1935,2_after watering,presumably no,nothing
+104,20210510,7.1735,1_before watering,no,regada con 800 mL
+104,20210510,7.4655,2_after watering,presumably no,nothing
+107,20210510,6.944,1_before watering,no,nothing
 107,20210510,7.243,2_after watering,presumably no,nothing
+111,20210510,7.045,1_before watering,no,regada con 800 mL
+111,20210510,7.3245,2_after watering,presumably no,nothing
+112,20210510,6.6405,1_before watering,no,regada con 800 mL
 112,20210510,6.9745,2_after watering,presumably no,nothing
+116,20210510,6.676,1_before watering,no,nothing
 116,20210510,7.1135,2_after watering,presumably no,nothing
+121,20210510,5.9795,1_before watering,no,nothing
 121,20210510,6.105,2_after watering,presumably no,nothing
+122,20210510,5.4005,1_before watering,no,nothing
 122,20210510,5.5105,2_after watering,presumably no,nothing
+123,20210510,6.2735,1_before watering,no,nothing
 123,20210510,6.3935,2_after watering,presumably no,nothing
+124,20210510,6.903,1_before watering,no,nothing
 124,20210510,7.0425,2_after watering,presumably no,nothing
+125,20210510,6.26,1_before watering,no,nothing
 125,20210510,6.378,2_after watering,presumably no,nothing
+126,20210510,6.022,1_before watering,no,nothing
+126,20210510,6.1415,2_after watering,presumably no,nothing
+127,20210510,5.953,1_before watering,no,nothing
+127,20210510,6.2535,2_after watering,presumably no,nothing
+128,20210510,6.0555,1_before watering,no,nothing
+128,20210510,6.4215,2_after watering,presumably no,nothing
+129,20210510,6.291,1_before watering,no,nothing
+129,20210510,6.41,2_after watering,presumably no,nothing
+130,20210510,5.924,1_before watering,no,nothing
+130,20210510,6.035,2_after watering,presumably no,nothing
 3,20210512,6.7275,1_before watering,yes,nothing
-23,20210512,6.4695,1_before watering,no,nothing
-24,20210512,7.243,1_before watering,no,nothing
-28,20210512,6.004,1_before watering,no,nothing
-33,20210512,5.8785,1_before watering,no,nothing
-41,20210512,6.4905,1_before watering,no,nothing
-75,20210512,6.7295,1_before watering,no,nothing
-77,20210512,7.602,1_before watering,no,nothing
-107,20210512,7.0435,1_before watering,no,nothing
-116,20210512,6.8315,1_before watering,no,nothing
-122,20210512,5.4385,1_before watering,no,nothing
-123,20210512,6.26,1_before watering,no,nothing
-124,20210512,6.065,1_before watering,no,nothing
 3,20210512,6.902,2_after watering,presumably no,nothing
+23,20210512,6.4695,1_before watering,no,nothing
 23,20210512,6.872,2_after watering,presumably no,nothing
+24,20210512,7.243,1_before watering,no,nothing
 24,20210512,7.475,2_after watering,presumably no,nothing
+28,20210512,6.004,1_before watering,no,nothing
 28,20210512,6.3725,2_after watering,presumably no,nothing
+33,20210512,5.8785,1_before watering,no,nothing
 33,20210512,6.3015,2_after watering,presumably no,nothing
+41,20210512,6.4905,1_before watering,no,nothing
 41,20210512,6.675,2_after watering,presumably no,nothing
+75,20210512,6.7295,1_before watering,no,nothing
 75,20210512,7.094,2_after watering,unknown,data labelled for 20210510 (two records for the same plant on that date)
+77,20210512,7.602,1_before watering,no,nothing
 77,20210512,7.8805,2_after watering,presumably no,nothing
+107,20210512,7.0435,1_before watering,no,nothing
 107,20210512,7.3645,2_after watering,presumably no,nothing
+116,20210512,6.8315,1_before watering,no,nothing
 116,20210512,7.1995,2_after watering,presumably no,nothing
+122,20210512,5.4385,1_before watering,no,nothing
 122,20210512,5.6505,2_after watering,presumably no,nothing
+123,20210512,6.26,1_before watering,no,nothing
 123,20210512,6.4585,2_after watering,presumably no,nothing
+124,20210512,6.065,1_before watering,no,nothing
 124,20210512,7.0685,2_after watering,presumably no,nothing
 6,20210513,7.013,1_before watering,presumably no,nothing
-14,20210513,6.4785,1_before watering,presumably no,nothing
-25,20210513,6.4515,1_before watering,presumably no,nothing
-35,20210513,6.4855,1_before watering,presumably no,nothing
-46,20210513,6.587,1_before watering,presumably no,nothing
-50,20210513,6.599,1_before watering,presumably no,nothing
-54,20210513,6.143,1_before watering,presumably no,nothing
-61,20210513,6.55,1_before watering,presumably no,nothing
-68,20210513,6.6215,1_before watering,presumably no,nothing
-69,20210513,7.182,1_before watering,presumably no,nothing
-89,20210513,7.377,1_before watering,presumably no,nothing
-101,20210513,6.843,1_before watering,presumably no,nothing
-104,20210513,7.154,1_before watering,presumably no,nothing
-111,20210513,7.0995,1_before watering,presumably no,nothing
-112,20210513,6.676,1_before watering,presumably no,nothing
-126,20210513,5.911,1_before watering,presumably no,nothing
-127,20210513,5.9945,1_before watering,presumably no,nothing
-128,20210513,6.1815,1_before watering,presumably no,nothing
-129,20210513,6.229,1_before watering,presumably no,nothing
-130,20210513,5.859,1_before watering,presumably no,nothing
-20,20210513,6.2475,1_before watering,presumably no,nothing
-31,20210513,6.2295,1_before watering,presumably no,nothing
-42,20210513,6.316,1_before watering,presumably no,nothing
-64,20210513,6.4915,1_before watering,presumably no,nothing
-80,20210513,7.0685,1_before watering,presumably no,nothing
-121,20210513,5.926,1_before watering,presumably no,nothing
-123,20210513,6.267,1_before watering,presumably no,nothing
 6,20210513,7.202,2_after watering,presumably no,nothing
+14,20210513,6.4785,1_before watering,presumably no,nothing
 14,20210513,6.8345,2_after watering,presumably no,nothing
-25,20210513,6.881,2_after watering,presumably no,nothing
-35,20210513,6.6945,2_after watering,presumably no,nothing
-46,20210513,6.707,2_after watering,presumably no,nothing
-50,20210513,6.9165,2_after watering,presumably no,nothing
-54,20210513,6.525,2_after watering,presumably no,nothing
-61,20210513,6.795,2_after watering,presumably no,nothing
-68,20210513,6.808,2_after watering,presumably no,nothing
-69,20210513,7.479,2_after watering,presumably no,nothing
-89,20210513,7.8605,2_after watering,presumably no,nothing
-101,20210513,7.1995,2_after watering,presumably no,nothing
-104,20210513,7.4745,2_after watering,presumably no,nothing
-111,20210513,7.224,2_after watering,presumably no,nothing
-112,20210513,6.9205,2_after watering,presumably no,nothing
-126,20210513,6.087,2_after watering,presumably no,nothing
-127,20210513,6.1235,2_after watering,presumably no,nothing
-128,20210513,6.2765,2_after watering,presumably no,nothing
-129,20210513,6.3685,2_after watering,presumably no,nothing
-130,20210513,5.9615,2_after watering,presumably no,nothing
+20,20210513,6.2475,1_before watering,presumably no,nothing
 20,20210513,6.9215,2_after watering,presumably no,nothing
+25,20210513,6.4515,1_before watering,presumably no,nothing
+25,20210513,6.881,2_after watering,presumably no,nothing
+31,20210513,6.2295,1_before watering,presumably no,nothing
 31,20210513,6.587,2_after watering,presumably no,nothing
+35,20210513,6.4855,1_before watering,presumably no,nothing
+35,20210513,6.6945,2_after watering,presumably no,nothing
+42,20210513,6.316,1_before watering,presumably no,nothing
 42,20210513,6.6435,2_after watering,presumably no,nothing
+46,20210513,6.587,1_before watering,presumably no,nothing
+46,20210513,6.707,2_after watering,presumably no,nothing
+50,20210513,6.599,1_before watering,presumably no,nothing
+50,20210513,6.9165,2_after watering,presumably no,nothing
+54,20210513,6.143,1_before watering,presumably no,nothing
+54,20210513,6.525,2_after watering,presumably no,nothing
+61,20210513,6.55,1_before watering,presumably no,nothing
+61,20210513,6.795,2_after watering,presumably no,nothing
+64,20210513,6.4915,1_before watering,presumably no,nothing
 64,20210513,6.8345,2_after watering,presumably no,nothing
+68,20210513,6.6215,1_before watering,presumably no,nothing
+68,20210513,6.808,2_after watering,presumably no,nothing
+69,20210513,7.182,1_before watering,presumably no,nothing
+69,20210513,7.479,2_after watering,presumably no,nothing
+80,20210513,7.0685,1_before watering,presumably no,nothing
 80,20210513,7.24,2_after watering,presumably no,nothing
+89,20210513,7.377,1_before watering,presumably no,nothing
+89,20210513,999,2_after watering,presumably no,"originally this cell said 7.8605, unrealistic."
+101,20210513,6.843,1_before watering,presumably no,nothing
+101,20210513,7.1995,2_after watering,presumably no,nothing
+104,20210513,7.154,1_before watering,presumably no,nothing
+104,20210513,7.4745,2_after watering,presumably no,nothing
+111,20210513,7.0995,1_before watering,presumably no,nothing
+111,20210513,7.224,2_after watering,presumably no,nothing
+112,20210513,6.676,1_before watering,presumably no,nothing
+112,20210513,6.9205,2_after watering,presumably no,nothing
+121,20210513,5.926,1_before watering,presumably no,nothing
 121,20210513,6.0895,2_after watering,presumably no,nothing
+123,20210513,6.267,1_before watering,presumably no,nothing
 125,20210513,6.457,2_after watering,presumably no,nothing
+126,20210513,5.911,1_before watering,presumably no,nothing
+126,20210513,6.087,2_after watering,presumably no,nothing
+127,20210513,5.9945,1_before watering,presumably no,nothing
+127,20210513,6.1235,2_after watering,presumably no,nothing
+128,20210513,6.1815,1_before watering,presumably no,nothing
+128,20210513,6.2765,2_after watering,presumably no,nothing
+129,20210513,6.229,1_before watering,presumably no,nothing
+129,20210513,6.3685,2_after watering,presumably no,nothing
+130,20210513,5.859,1_before watering,presumably no,nothing
+130,20210513,5.9615,2_after watering,presumably no,nothing
+1,20210517,6.633,2_after watering,presumably no,why is this rrecord here?
+3,20210517,6.676,1_before watering,presumably no,nothing
 6,20210517,7.0555,1_before watering,presumably no,nothing
 14,20210517,6.4665,1_before watering,presumably no,nothing
+20,20210517,6.323,1_before watering,presumably no,nothing
+20,20210517,6.683,2_after watering,presumably no,nothing
+23,20210517,6.279,1_before watering,presumably no,nothing
+24,20210517,7.075,1_before watering,presumably no,nothing
 25,20210517,6.32,1_before watering,presumably no,nothing
+28,20210517,5.751,1_before watering,presumably no,nothing
+31,20210517,6.057,1_before watering,presumably no,nothing
+31,20210517,6.4375,2_after watering,presumably no,nothing
+33,20210517,5.6115,1_before watering,presumably no,nothing
 35,20210517,6.5375,1_before watering,presumably no,nothing
+41,20210517,6.3415,1_before watering,presumably no,nothing
+42,20210517,6.1615,1_before watering,presumably no,nothing
+42,20210517,6.545,2_after watering,presumably no,nothing
 46,20210517,6.555,1_before watering,presumably no,nothing
 50,20210517,6.5675,1_before watering,presumably no,nothing
 54,20210517,6.031,1_before watering,presumably no,nothing
+54,20210517,6.403,2_after watering,presumably no,nothing
 61,20210517,6.5565,1_before watering,presumably no,nothing
-68,20210517,6.6185,1_before watering,presumably no,nothing
-69,20210517,7.2565,1_before watering,presumably no,nothing
-89,20210517,7.391,1_before watering,presumably no,nothing
-101,20210517,6.896,1_before watering,presumably no,nothing
-104,20210517,7.1795,1_before watering,presumably no,nothing
-111,20210517,7.111,1_before watering,presumably no,nothing
-112,20210517,6.7745,1_before watering,presumably no,nothing
-126,20210517,5.9205,1_before watering,presumably no,nothing
-127,20210517,5.9485,1_before watering,presumably no,nothing
-128,20210517,6.1045,1_before watering,presumably no,nothing
-129,20210517,6.201,1_before watering,presumably no,nothing
-130,20210517,5.82,1_before watering,presumably no,nothing
-3,20210517,6.676,1_before watering,presumably no,nothing
-20,20210517,6.323,1_before watering,presumably no,nothing
-23,20210517,6.279,1_before watering,presumably no,nothing
-24,20210517,7.075,1_before watering,presumably no,nothing
-28,20210517,5.751,1_before watering,presumably no,nothing
-31,20210517,6.057,1_before watering,presumably no,nothing
-33,20210517,5.6115,1_before watering,presumably no,nothing
-41,20210517,6.3415,1_before watering,presumably no,nothing
-42,20210517,6.1615,1_before watering,presumably no,nothing
+61,20210517,6.833,2_after watering,presumably no,nothing
 64,20210517,6.41,1_before watering,presumably no,nothing
+64,20210517,6.767,2_after watering,presumably no,nothing
+68,20210517,6.6185,1_before watering,presumably no,nothing
+68,20210517,6.8285,2_after watering,presumably no,nothing
+69,20210517,7.2565,1_before watering,presumably no,nothing
 75,20210517,6.5605,1_before watering,presumably no,nothing
 77,20210517,7.479,1_before watering,presumably no,nothing
 80,20210517,7.031,1_before watering,presumably no,nothing
+80,20210517,7.2585,2_after watering,presumably no,nothing
+89,20210517,7.391,1_before watering,presumably no,nothing
+89,20210517,7.568,2_after watering,presumably no,nothing
+101,20210517,6.896,1_before watering,presumably no,nothing
+104,20210517,7.1795,1_before watering,presumably no,nothing
 107,20210517,6.8935,1_before watering,presumably no,nothing
+111,20210517,7.111,1_before watering,presumably no,nothing
+111,20210517,7.243,2_after watering,presumably no,nothing
+112,20210517,6.7745,1_before watering,presumably no,nothing
 116,20210517,6.667,1_before watering,presumably no,nothing
 121,20210517,5.9515,1_before watering,presumably no,nothing
+121,20210517,6.165,2_after watering,presumably no,nothing
 122,20210517,5.468,1_before watering,presumably no,nothing
 123,20210517,6.313,1_before watering,presumably no,nothing
+123,20210517,6.6005,2_after watering,presumably no,Se riega sin querer :(
 124,20210517,6.6275,1_before watering,presumably no,nothing
 125,20210517,6.268,1_before watering,presumably no,nothing
-54,20210517,6.403,2_after watering,presumably no,nothing
-61,20210517,6.833,2_after watering,presumably no,nothing
-68,20210517,6.8285,2_after watering,presumably no,nothing
-89,20210517,7.568,2_after watering,presumably no,nothing
-111,20210517,7.243,2_after watering,presumably no,nothing
-127,20210517,6.144,2_after watering,presumably no,nothing
-130,20210517,5.991,2_after watering,presumably no,nothing
-1,20210517,6.633,2_after watering,presumably no,why is this rrecord here?
-20,20210517,6.683,2_after watering,presumably no,nothing
-31,20210517,6.4375,2_after watering,presumably no,nothing
-42,20210517,6.545,2_after watering,presumably no,nothing
-64,20210517,6.767,2_after watering,presumably no,nothing
-80,20210517,7.2585,2_after watering,presumably no,nothing
-121,20210517,6.165,2_after watering,presumably no,nothing
-123,20210517,6.6005,2_after watering,presumably no,Se riega sin querer :(
 125,20210517,6.5525,2_after watering,presumably no,nothing
+126,20210517,5.9205,1_before watering,presumably no,nothing
+127,20210517,5.9485,1_before watering,presumably no,nothing
+127,20210517,6.144,2_after watering,presumably no,nothing
+128,20210517,6.1045,1_before watering,presumably no,nothing
+129,20210517,6.201,1_before watering,presumably no,nothing
+130,20210517,5.82,1_before watering,presumably no,nothing
+130,20210517,5.991,2_after watering,presumably no,nothing
+3,20210520,6.436,1_before watering,presumably no,nothing
 6,20210520,6.873,1_before watering,presumably no,nothing
 14,20210520,6.0665,1_before watering,presumably no,nothing
+20,20210520,6.1855,1_before watering,presumably no,nothing
+20,20210520,6.554,2_after watering,presumably no,nothing
+23,20210520,5.914,1_before watering,presumably no,nothing
+24,20210520,6.763,1_before watering,presumably no,nothing
 25,20210520,5.881,1_before watering,presumably no,nothing
+28,20210520,5.442,1_before watering,presumably no,nothing
+31,20210520,6.055,1_before watering,presumably no,nothing
+31,20210520,6.4415,2_after watering,presumably no,nothing
+33,20210520,5.247,1_before watering,presumably no,nothing
 35,20210520,6.257,1_before watering,presumably no,nothing
+41,20210520,6.092,1_before watering,presumably no,nothing
+42,20210520,6.188,1_before watering,presumably no,nothing
+42,20210520,6.575,2_after watering,presumably no,nothing
 46,20210520,6.3925,1_before watering,presumably no,nothing
 50,20210520,6.183,1_before watering,presumably no,nothing
 54,20210520,5.93,1_before watering,presumably no,nothing
-68,20210520,6.575,1_before watering,presumably no,record missing
+54,20210520,6.3125,2_after watering,presumably no,nothing
 61,20210520,6.5795,1_before watering,presumably no,nothing
-69,20210520,6.947,1_before watering,presumably no,nothing
-89,20210520,7.3935,1_before watering,presumably no,nothing
-101,20210520,6.6045,1_before watering,presumably no,nothing
-111,20210520,7.1605,1_before watering,presumably no,nothing
-112,20210520,6.519,1_before watering,presumably no,nothing
-126,20210520,5.818,1_before watering,presumably no,nothing
-127,20210520,6.095,1_before watering,presumably no,nothing
-128,20210520,5.984,1_before watering,presumably no,nothing
-129,20210520,6.0615,1_before watering,presumably no,nothing
-130,20210520,5.938,1_before watering,presumably no,nothing
-3,20210520,6.436,1_before watering,presumably no,nothing
-20,20210520,6.1855,1_before watering,presumably no,nothing
-23,20210520,5.914,1_before watering,presumably no,nothing
-24,20210520,6.763,1_before watering,presumably no,nothing
-28,20210520,5.442,1_before watering,presumably no,nothing
-31,20210520,6.055,1_before watering,presumably no,nothing
-33,20210520,5.247,1_before watering,presumably no,nothing
-41,20210520,6.092,1_before watering,presumably no,nothing
-42,20210520,6.188,1_before watering,presumably no,nothing
+61,20210520,999,2_after watering,presumably no,nothing
 64,20210520,6.3005,1_before watering,presumably no,nothing
+64,20210520,6.68,2_after watering,presumably no,nothing
+68,20210520,6.575,1_before watering,presumably no,record missing
+68,20210520,999,2_after watering,presumably no,nothing
+69,20210520,6.947,1_before watering,presumably no,nothing
 75,20210520,6.272,1_before watering,presumably no,nothing
 77,20210520,7.2105,1_before watering,presumably no,nothing
 80,20210520,7.017,1_before watering,presumably no,nothing
+80,20210520,7.3145,2_after watering,presumably no,nothing
+89,20210520,7.3935,1_before watering,presumably no,nothing
+89,20210520,7.554,2_after watering,presumably no,nothing
+101,20210520,6.6045,1_before watering,presumably no,nothing
 107,20210520,6.5765,1_before watering,presumably no,nothing
+111,20210520,7.1605,1_before watering,presumably no,nothing
+111,20210520,7.301,2_after watering,presumably no,nothing
+112,20210520,6.519,1_before watering,presumably no,nothing
 116,20210520,6.3965,1_before watering,presumably no,nothing
 121,20210520,6.1175,1_before watering,presumably no,nothing
+121,20210520,6.2905,2_after watering,presumably no,nothing
 122,20210520,5.3725,1_before watering,presumably no,nothing
 123,20210520,6.522,1_before watering,presumably no,nothing
 124,20210520,6.4275,1_before watering,presumably no,nothing
 125,20210520,6.424,1_before watering,presumably no,nothing
-127,20210520,6.2905,2_after watering,presumably no,nothing
-89,20210520,7.554,2_after watering,presumably no,nothing
-68,20210520,999,2_after watering,presumably no,nothing
-61,20210520,999,2_after watering,presumably no,nothing
-111,20210520,7.301,2_after watering,presumably no,nothing
-54,20210520,6.3125,2_after watering,presumably no,nothing
-130,20210520,6.062,2_after watering,presumably no,nothing
-121,20210520,6.2905,2_after watering,presumably no,nothing
-20,20210520,6.554,2_after watering,presumably no,nothing
-42,20210520,6.575,2_after watering,presumably no,nothing
-31,20210520,6.4415,2_after watering,presumably no,nothing
-80,20210520,7.3145,2_after watering,presumably no,nothing
-64,20210520,6.68,2_after watering,presumably no,nothing
 125,20210520,6.6475,2_after watering,presumably no,nothing
+126,20210520,5.818,1_before watering,presumably no,nothing
+127,20210520,6.095,1_before watering,presumably no,nothing
+127,20210520,6.2905,2_after watering,presumably no,nothing
+128,20210520,5.984,1_before watering,presumably no,nothing
+129,20210520,6.0615,1_before watering,presumably no,nothing
+130,20210520,5.938,1_before watering,presumably no,nothing
+130,20210520,6.062,2_after watering,presumably no,nothing
+3,20210524,6.18,1_before watering,presumably no,nothing
 6,20210524,6.687,1_before watering,presumably no,nothing
 14,20210524,5.669,1_before watering,presumably no,nothing
+20,20210524,6.065,1_before watering,presumably no,nothing
+20,20210524,6.402,2_after watering,presumably no,nothing
+23,20210524,5.653,1_before watering,presumably no,nothing
+24,20210524,6.449,1_before watering,presumably no,nothing
 25,20210524,5.656,1_before watering,presumably no,nothing
+28,20210524,5.2475,1_before watering,presumably no,nothing
+31,20210524,5.852,1_before watering,presumably no,nothing
+31,20210524,6.212,2_after watering,presumably no,nothing
+33,20210524,4.9949,1_before watering,presumably no,nothing
 35,20210524,5.934,1_before watering,presumably no,nothing
+41,20210524,5.774,1_before watering,presumably no,nothing
+42,20210524,6.099,1_before watering,presumably no,nothing
+42,20210524,6.473,2_after watering,presumably no,nothing
 46,20210524,6.179,1_before watering,presumably no,nothing
 50,20210524,5.7945,1_before watering,presumably no,nothing
 54,20210524,5.86,1_before watering,presumably no,nothing
+54,20210524,6.2105,2_after watering,presumably no,nothing
 61,20210524,6.543,1_before watering,presumably no,nothing
-68,20210524,6.6055,1_before watering,presumably no,nothing
-69,20210524,6.63,1_before watering,presumably no,nothing
-89,20210524,7.147,1_before watering,presumably no,nothing
-101,20210524,6.2845,1_before watering,presumably no,nothing
-104,20210524,6.5315,1_before watering,presumably no,nothing
-111,20210524,7.0935,1_before watering,presumably no,nothing
-112,20210524,6.2325,1_before watering,presumably no,nothing
-126,20210524,5.707,1_before watering,presumably no,nothing
-127,20210524,6.0605,1_before watering,presumably no,nothing
-128,20210524,5.8775,1_before watering,presumably no,nothing
-129,20210524,5.942,1_before watering,presumably no,nothing
-130,20210524,5.904,1_before watering,presumably no,nothing
-3,20210524,6.18,1_before watering,presumably no,nothing
-20,20210524,6.065,1_before watering,presumably no,nothing
-23,20210524,5.653,1_before watering,presumably no,nothing
-24,20210524,6.449,1_before watering,presumably no,nothing
-28,20210524,5.2475,1_before watering,presumably no,nothing
-31,20210524,5.852,1_before watering,presumably no,nothing
-33,20210524,4.9949,1_before watering,presumably no,nothing
-41,20210524,5.774,1_before watering,presumably no,nothing
-42,20210524,6.099,1_before watering,presumably no,nothing
+61,20210524,6.8325,2_after watering,presumably no,nothing
 64,20210524,6.24,1_before watering,presumably no,nothing
+64,20210524,6.6025,2_after watering,presumably no,nothing
+68,20210524,6.6055,1_before watering,presumably no,nothing
+68,20210524,6.838,2_after watering,presumably no,nothing
+69,20210524,6.63,1_before watering,presumably no,nothing
 75,20210524,6.0045,1_before watering,presumably no,nothing
 77,20210524,6.886,1_before watering,presumably no,nothing
 80,20210524,6.9535,1_before watering,presumably no,nothing
+80,20210524,7.236,2_after watering,presumably no,nothing
+89,20210524,7.147,1_before watering,presumably no,nothing
+89,20210524,7.459,2_after watering,presumably no,nothing
+101,20210524,6.2845,1_before watering,presumably no,nothing
+104,20210524,6.5315,1_before watering,presumably no,nothing
 107,20210524,6.3165,1_before watering,presumably no,nothing
+111,20210524,7.0935,1_before watering,presumably no,nothing
+111,20210524,7.2425,2_after watering,presumably no,nothing
+112,20210524,6.2325,1_before watering,presumably no,nothing
 116,20210524,6.054,1_before watering,presumably no,nothing
 121,20210524,6.1675,1_before watering,presumably no,nothing
+121,20210524,6.271,2_after watering,presumably no,nothing
 122,20210524,5.269,1_before watering,presumably no,nothing
 123,20210524,6.39,1_before watering,presumably no,nothing
 124,20210524,6.2775,1_before watering,presumably no,nothing
 125,20210524,6.5435,1_before watering,presumably no,nothing
-54,20210524,6.2105,2_after watering,presumably no,nothing
-61,20210524,6.8325,2_after watering,presumably no,nothing
-68,20210524,6.838,2_after watering,presumably no,nothing
-89,20210524,7.459,2_after watering,presumably no,nothing
-111,20210524,7.2425,2_after watering,presumably no,nothing
-127,20210524,6.182,2_after watering,presumably no,nothing
-130,20210524,6.022,2_after watering,presumably no,nothing
-20,20210524,6.402,2_after watering,presumably no,nothing
-31,20210524,6.212,2_after watering,presumably no,nothing
-42,20210524,6.473,2_after watering,presumably no,nothing
-64,20210524,6.6025,2_after watering,presumably no,nothing
-80,20210524,7.236,2_after watering,presumably no,nothing
-121,20210524,6.271,2_after watering,presumably no,nothing
 125,20210524,6.658,2_after watering,presumably no,nothing
+126,20210524,5.707,1_before watering,presumably no,nothing
+127,20210524,6.0605,1_before watering,presumably no,nothing
+127,20210524,6.182,2_after watering,presumably no,nothing
+128,20210524,5.8775,1_before watering,presumably no,nothing
+129,20210524,5.942,1_before watering,presumably no,nothing
+130,20210524,5.904,1_before watering,presumably no,nothing
+130,20210524,6.022,2_after watering,presumably no,nothing
+3,20210527,6.0235,1_before watering,presumably no,plant sampled on this date
 6,20210527,6.4985,1_before watering,presumably no,plant sampled on this date
 14,20210527,5.487,1_before watering,presumably no,nothing
+20,20210527,5.8525,1_before watering,presumably no,nothing
+20,20210527,6.232,2_after watering,presumably no,nothing
+23,20210527,5.5275,1_before watering,presumably no,plant sampled on this date
 25,20210527,5.5345,1_before watering,presumably no,nothing
+28,20210527,5.136,1_before watering,presumably no,nothing
+31,20210527,5.831,1_before watering,presumably no,nothing
+31,20210527,6.202,2_after watering,presumably no,nothing
+33,20210527,4.893,1_before watering,presumably no,plant sampled on this date
 35,20210527,5.656,1_before watering,presumably no,plant sampled on this date
+41,20210527,5.587,1_before watering,presumably no,plant sampled on this date
+42,20210527,6.049,1_before watering,presumably no,nothing
+42,20210527,6.4265,2_after watering,presumably no,nothing
 46,20210527,5.9785,1_before watering,presumably no,nothing
 50,20210527,5.552,1_before watering,presumably no,plant sampled on this date
 54,20210527,5.731,1_before watering,presumably no,nothing
+54,20210527,6.117,2_after watering,presumably no,nothing
 61,20210527,6.5165,1_before watering,presumably no,nothing
-68,20210527,6.481,1_before watering,presumably no,nothing
-69,20210527,6.3515,1_before watering,presumably no,plant sampled on this date
-89,20210527,7.22,1_before watering,presumably no,nothing
-101,20210527,5.9215,1_before watering,presumably no,nothing
-104,20210527,6.2845,1_before watering,presumably no,plant sampled on this date
-111,20210527,7.043,1_before watering,presumably no,nothing
-112,20210527,5.9535,1_before watering,presumably no,nothing
-126,20210527,5.5785,1_before watering,presumably no,nothing
-127,20210527,6.068,1_before watering,presumably no,nothing
-128,20210527,5.7575,1_before watering,presumably no,nothing
-129,20210527,5.8605,1_before watering,presumably no,nothing
-130,20210527,5.855,1_before watering,presumably no,nothing
-3,20210527,6.0235,1_before watering,presumably no,plant sampled on this date
-20,20210527,5.8525,1_before watering,presumably no,nothing
-23,20210527,5.5275,1_before watering,presumably no,plant sampled on this date
-28,20210527,5.136,1_before watering,presumably no,nothing
-31,20210527,5.831,1_before watering,presumably no,nothing
-33,20210527,4.893,1_before watering,presumably no,plant sampled on this date
-41,20210527,5.587,1_before watering,presumably no,plant sampled on this date
-42,20210527,6.049,1_before watering,presumably no,nothing
+61,20210527,6.868,2_after watering,presumably no,nothing
 64,20210527,6.1565,1_before watering,presumably no,nothing
+64,20210527,6.5445,2_after watering,presumably no,nothing
+68,20210527,6.481,1_before watering,presumably no,nothing
+68,20210527,6.8575,2_after watering,presumably no,nothing
+69,20210527,6.3515,1_before watering,presumably no,plant sampled on this date
 75,20210527,5.8955,1_before watering,presumably no,plant sampled on this date
 77,20210527,6.65,1_before watering,presumably no,nothing
 80,20210527,6.9515,1_before watering,presumably no,nothing
+80,20210527,7.2635,2_after watering,presumably no,nothing
+89,20210527,7.22,1_before watering,presumably no,nothing
+89,20210527,7.5325,2_after watering,presumably no,nothing
+101,20210527,5.9215,1_before watering,presumably no,nothing
+104,20210527,6.2845,1_before watering,presumably no,plant sampled on this date
 107,20210527,6.0305,1_before watering,presumably no,nothing
+111,20210527,7.043,1_before watering,presumably no,nothing
+111,20210527,7.2725,2_after watering,presumably no,nothing
+112,20210527,5.9535,1_before watering,presumably no,nothing
 116,20210527,5.834,1_before watering,presumably no,nothing
 121,20210527,6.158,1_before watering,presumably no,nothing
+121,20210527,6.322,2_after watering,presumably no,nothing
 122,20210527,5.2065,1_before watering,presumably no,nothing
 123,20210527,6.3155,1_before watering,presumably no,nothing
 124,20210527,6.184,1_before watering,presumably no,nothing
 125,20210527,6.584,1_before watering,presumably no,nothing
-127,20210527,6.236,2_after watering,presumably no,nothing
-89,20210527,7.5325,2_after watering,presumably no,nothing
-68,20210527,6.8575,2_after watering,presumably no,nothing
-61,20210527,6.868,2_after watering,presumably no,nothing
-111,20210527,7.2725,2_after watering,presumably no,nothing
-54,20210527,6.117,2_after watering,presumably no,nothing
-130,20210527,6.051,2_after watering,presumably no,nothing
-121,20210527,6.322,2_after watering,presumably no,nothing
-20,20210527,6.232,2_after watering,presumably no,nothing
-42,20210527,6.4265,2_after watering,presumably no,nothing
-31,20210527,6.202,2_after watering,presumably no,nothing
-80,20210527,7.2635,2_after watering,presumably no,nothing
-64,20210527,6.5445,2_after watering,presumably no,nothing
 125,20210527,6.7335,2_after watering,presumably no,nothing
+126,20210527,5.5785,1_before watering,presumably no,nothing
+127,20210527,6.068,1_before watering,presumably no,nothing
+127,20210527,6.236,2_after watering,presumably no,nothing
+128,20210527,5.7575,1_before watering,presumably no,nothing
+129,20210527,5.8605,1_before watering,presumably no,nothing
+130,20210527,5.855,1_before watering,presumably no,nothing
+130,20210527,6.051,2_after watering,presumably no,nothing
 14,20210531,5.3615,1_before watering,presumably no,nothing
-25,20210531,5.444,1_before watering,presumably no,nothing
-46,20210531,5.7815,1_before watering,presumably no,nothing
-54,20210531,5.6395,1_before watering,presumably no,nothing
-61,20210531,6.4895,1_before watering,presumably no,nothing
-68,20210531,6.394,1_before watering,presumably no,nothing
-89,20210531,7.2295,1_before watering,presumably no,nothing
-101,20210531,5.706,1_before watering,presumably no,nothing
-111,20210531,7.09,1_before watering,presumably no,nothing
-112,20210531,5.733,1_before watering,presumably no,nothing
-126,20210531,5.4595,1_before watering,presumably no,nothing
-127,20210531,6.118,1_before watering,presumably no,nothing
-128,20210531,5.6195,1_before watering,presumably no,nothing
-129,20210531,5.7605,1_before watering,presumably no,nothing
-130,20210531,5.9375,1_before watering,presumably no,nothing
 20,20210531,5.736,1_before watering,presumably no,nothing
+20,20210531,6.1085,2_after watering,presumably no,nothing
 24,20210531,6.0405,1_before watering,presumably no,nothing
+25,20210531,5.444,1_before watering,presumably no,nothing
 28,20210531,5.04,1_before watering,presumably no,nothing
 31,20210531,5.7295,1_before watering,presumably no,nothing
+31,20210531,6.1055,2_after watering,presumably no,nothing
 42,20210531,5.924,1_before watering,presumably no,nothing
+42,20210531,6.3,2_after watering,presumably no,nothing
+46,20210531,5.7815,1_before watering,presumably no,nothing
+54,20210531,5.6395,1_before watering,presumably no,nothing
+54,20210531,6.011,2_after watering,presumably no,nothing
+61,20210531,6.4895,1_before watering,presumably no,nothing
+61,20210531,6.8355,2_after watering,presumably no,nothing
 64,20210531,6.043,1_before watering,presumably no,nothing
+64,20210531,6.4085,2_after watering,presumably no,nothing
+68,20210531,6.394,1_before watering,presumably no,nothing
+68,20210531,6.7765,2_after watering,presumably no,nothing
 77,20210531,6.4375,1_before watering,presumably no,nothing
 80,20210531,6.913,1_before watering,presumably no,nothing
+80,20210531,7.232,2_after watering,presumably no,nothing
+89,20210531,7.2295,1_before watering,presumably no,nothing
+89,20210531,7.5175,2_after watering,presumably no,nothing
+101,20210531,5.706,1_before watering,presumably no,nothing
 107,20210531,5.7855,1_before watering,presumably no,nothing
+111,20210531,7.09,1_before watering,presumably no,nothing
+111,20210531,7.241,2_after watering,presumably no,nothing
+112,20210531,5.733,1_before watering,presumably no,nothing
 116,20210531,5.617,1_before watering,presumably no,nothing
 121,20210531,6.2055,1_before watering,presumably no,nothing
+121,20210531,6.3075,2_after watering,presumably no,nothing
 122,20210531,5.1455,1_before watering,presumably no,nothing
 123,20210531,6.2535,1_before watering,presumably no,nothing
 124,20210531,6.1085,1_before watering,presumably no,nothing
 125,20210531,6.5975,1_before watering,presumably no,nothing
-127,20210531,6.2105,2_after watering,presumably no,nothing
-89,20210531,7.5175,2_after watering,presumably no,nothing
-68,20210531,6.7765,2_after watering,presumably no,nothing
-61,20210531,6.8355,2_after watering,presumably no,nothing
-111,20210531,7.241,2_after watering,presumably no,nothing
-54,20210531,6.011,2_after watering,presumably no,nothing
-130,20210531,6.048,2_after watering,presumably no,nothing
-121,20210531,6.3075,2_after watering,presumably no,nothing
-20,20210531,6.1085,2_after watering,presumably no,nothing
-42,20210531,6.3,2_after watering,presumably no,nothing
-31,20210531,6.1055,2_after watering,presumably no,nothing
-80,20210531,7.232,2_after watering,presumably no,nothing
-64,20210531,6.4085,2_after watering,presumably no,nothing
 125,20210531,6.7065,2_after watering,presumably no,nothing
-20,20210601,6.034,1_before watering,presumably no,plant sampled on this date
+126,20210531,5.4595,1_before watering,presumably no,nothing
+127,20210531,6.118,1_before watering,presumably no,nothing
+127,20210531,6.2105,2_after watering,presumably no,nothing
+128,20210531,5.6195,1_before watering,presumably no,nothing
+129,20210531,5.7605,1_before watering,presumably no,nothing
+130,20210531,5.9375,1_before watering,presumably no,nothing
+130,20210531,6.048,2_after watering,presumably no,nothing
+20,20210601,6.034,1_before watering,presumably no,plant sampled on this date. Weight taken early morning
 42,20210601,6.1915,1_before watering,presumably no,plant sampled on this date
-80,20210601,7.1995,1_before watering,presumably no,nothing
 68,20210601,6.678,1_before watering,presumably no,plant sampled on this date
+80,20210601,999,1_before watering,presumably no,nothing
 111,20210601,7.1665,1_before watering,presumably no,plant sampled on this date
 28,20210602,5.0025,1_before watering,presumably no,plant sampled on this date
 77,20210602,6.3325,1_before watering,presumably no,plant sampled on this date
 107,20210602,5.708,1_before watering,presumably no,plant sampled on this date
-89,20210603,7.2455,1_before watering,presumably no,nothing
-61,20210603,6.4435,1_before watering,presumably no,nothing
-54,20210603,5.643,1_before watering,presumably no,nothing
-46,20210603,5.611,1_before watering,presumably no,nothing
 14,20210603,5.283,1_before watering,presumably no,nothing
-126,20210603,5.4325,1_before watering,presumably no,nothing
-127,20210603,6.212,1_before watering,presumably no,nothing
-128,20210603,5.586,1_before watering,presumably no,nothing
-129,20210603,5.7035,1_before watering,presumably no,nothing
-130,20210603,5.9655,1_before watering,presumably no,nothing
-116,20210603,5.518,1_before watering,presumably no,nothing
-80,20210603,6.9345,1_before watering,presumably no,nothing
-64,20210603,5.9255,1_before watering,presumably no,nothing
-31,20210603,5.755,1_before watering,presumably no,nothing
 24,20210603,5.9415,1_before watering,presumably no,nothing
+25,20210603,5.389,1_before watering,presumably no,plant sampled on this date
+31,20210603,5.755,1_before watering,presumably no,nothing
+31,20210603,6.15,2_after watering,presumably no,nothing
+46,20210603,5.611,1_before watering,presumably no,nothing
+54,20210603,5.643,1_before watering,presumably no,nothing
+54,20210603,6.013,2_after watering,presumably no,nothing
+61,20210603,6.4435,1_before watering,presumably no,nothing
+61,20210603,6.826,2_after watering,presumably no,nothing
+64,20210603,5.9255,1_before watering,presumably no,nothing
+64,20210603,6.298,2_after watering,presumably no,nothing
+80,20210603,6.9345,1_before watering,presumably no,nothing
+80,20210603,7.279,2_after watering,presumably no,nothing
+89,20210603,7.2455,1_before watering,presumably no,nothing
+89,20210603,7.59,2_after watering,presumably no,nothing
+101,20210603,5.61,1_before watering,presumably no,plant sampled on this date
+112,20210603,5.6125,1_before watering,presumably no,plant sampled on this date
+116,20210603,5.518,1_before watering,presumably no,nothing
 121,20210603,999,1_before watering,presumably no,nothing
+121,20210603,6.382,2_after watering,presumably no,nothing
 122,20210603,5.1025,1_before watering,presumably no,nothing
 123,20210603,6.214,1_before watering,presumably no,nothing
 124,20210603,6.058,1_before watering,presumably no,nothing
 125,20210603,6.6355,1_before watering,presumably no,nothing
-25,20210603,5.389,1_before watering,presumably no,plant sampled on this date
-101,20210603,5.61,1_before watering,presumably no,plant sampled on this date
-112,20210603,5.6125,1_before watering,presumably no,plant sampled on this date
-54,20210603,6.013,2_after watering,presumably no,nothing
-61,20210603,6.826,2_after watering,presumably no,nothing
-89,20210603,7.59,2_after watering,presumably no,nothing
-127,20210603,6.1475,2_after watering,presumably no,nothing
-130,20210603,6.128,2_after watering,presumably no,nothing
-31,20210603,6.15,2_after watering,presumably no,nothing
-64,20210603,6.298,2_after watering,presumably no,nothing
-80,20210603,7.279,2_after watering,presumably no,nothing
-121,20210603,6.382,2_after watering,presumably no,nothing
 125,20210603,6.7795,2_after watering,presumably no,nothing
+126,20210603,5.4325,1_before watering,presumably no,nothing
+127,20210603,6.212,1_before watering,presumably no,nothing
+127,20210603,6.1475,2_after watering,presumably no,nothing
+128,20210603,5.586,1_before watering,presumably no,nothing
+129,20210603,5.7035,1_before watering,presumably no,nothing
+130,20210603,5.9655,1_before watering,presumably no,nothing
+130,20210603,6.128,2_after watering,presumably no,nothing
 31,20210606,999,1_before watering,presumably no,missing record
-64,20210606,999,1_before watering,presumably no,missing record
-80,20210606,999,1_before watering,presumably no,missing record
-54,20210606,999,1_before watering,presumably no,missing record
-61,20210606,999,1_before watering,presumably no,missing record
-89,20210606,999,1_before watering,presumably no,missing record
 31,20210606,999,2_after watering,presumably no,missing record
-64,20210606,999,2_after watering,presumably no,missing record
-80,20210606,999,2_after watering,presumably no,missing record
+54,20210606,999,1_before watering,presumably no,missing record
 54,20210606,999,2_after watering,presumably no,missing record
+61,20210606,999,1_before watering,presumably no,missing record
 61,20210606,999,2_after watering,presumably no,missing record
+64,20210606,999,1_before watering,presumably no,missing record
+64,20210606,999,2_after watering,presumably no,missing record
+80,20210606,999,1_before watering,presumably no,missing record
+80,20210606,999,2_after watering,presumably no,missing record
+89,20210606,999,1_before watering,presumably no,missing record
 89,20210606,999,2_after watering,presumably no,missing record
 31,20210607,6.1105,1_before watering,presumably no,plant sampled on this date
 64,20210607,6.2525,1_before watering,presumably no,plant sampled on this date
 80,20210607,7.1995,1_before watering,presumably no,plant sampled on this date
 24,20210608,5.847,1_before watering,presumably no,plant sampled on this date
 116,20210608,5.4175,1_before watering,presumably no,plant sampled on this date
+14,20210609,5.179,1_before watering,presumably no,plant sampled on this date
+46,20210609,5.342,1_before watering,presumably no,plant sampled on this date
+54,20210609,5.66,1_before watering,presumably no,nothing
+54,20210609,6.0335,2_after watering,presumably no,nothing
+61,20210609,6.375,1_before watering,presumably no,nothing
+61,20210609,6.76,2_after watering,presumably no,nothing
+89,20210609,7.391,1_before watering,presumably no,nothing
+89,20210609,7.7555,2_after watering,presumably no,nothing
+121,20210609,6.1185,1_before watering,presumably no,nothing
 122,20210609,5.0405,1_before watering,presumably no,nothing
 123,20210609,6.146,1_before watering,presumably no,nothing
 124,20210609,5.978,1_before watering,presumably no,nothing
 125,20210609,6.7475,1_before watering,presumably no,nothing
-89,20210609,7.391,1_before watering,presumably no,nothing
-54,20210609,5.66,1_before watering,presumably no,nothing
-61,20210609,6.375,1_before watering,presumably no,nothing
-121,20210609,6.1185,1_before watering,presumably no,nothing
 126,20210609,5.233,1_before watering,presumably no,nothing
 127,20210609,6.138,1_before watering,presumably no,nothing
 128,20210609,5.4165,1_before watering,presumably no,nothing
 129,20210609,5.6215,1_before watering,presumably no,nothing
 130,20210609,6.026,1_before watering,presumably no,nothing
-89,20210609,7.7555,2_after watering,presumably no,nothing
-54,20210609,6.0335,2_after watering,presumably no,nothing
-61,20210609,6.76,2_after watering,presumably no,nothing
-14,20210609,5.179,1_before watering,presumably no,plant sampled on this date
-46,20210609,5.342,1_before watering,presumably no,plant sampled on this date
 54,20210610,5.9665,1_before watering,presumably no,plant sampled on this date
 61,20210610,6.6605,1_before watering,presumably no,plant sampled on this date
 89,20210610,7.531,1_before watering,presumably no,plant sampled on this date
