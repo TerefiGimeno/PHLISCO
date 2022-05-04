@@ -1,0 +1,23 @@
+variable,description,type,units
+campaign,number of campaing,integrer,count
+id_plant,plant unique identifier,integrer,count
+treatment_co2,CO2 treatment,factor,ambient/elevated
+treatment_h2o,water treatment,factor,control/drought
+date,date of the year,integrer,yyyymmdd
+HHMMSS,time,time,HHMMSS
+Photo,photosynthesis,numeric,micromol CO2 m-2 s-1
+Cond,stomatal conductance,numeric,mol H2O m-2 s-1
+Ci,CO2 concentration of the sub-stomatal cavity,numeric,micromol CO2 mol-1
+Trmmol,Transpiration rate,numeric,mmol H2O m-2 s-1
+VpdL,Vapour pressure deficit of the leaf,numeric,kPa
+CTleaf,leaf temperature,numeric,C
+CO2R,CO2 concentration of the reference,micromol CO2 mol-1,
+CO2S,CO2 concentration of the sample,micromol CO2 mol-1,
+H2OR,H2O of the reference,mmol H2O mol-1,
+H2OS,H2O of the sample,mmol H2O mol-1,
+RH_R,relative humidity of the reference,percentage,%
+RH_S,relative humidity of the sample,percentage,%
+Flow,air flow through the chamber,numeric,micromol s-1
+PARi,photosynthetically active radiation inside the chamber,numeric,micromol m-2 s-1
+PARo,photosynthetically active radiation outside the chamber,numeric,micromol m-2 s-1
+OBS,notes,character,character
