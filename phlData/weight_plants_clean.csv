@@ -611,7 +611,6 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 20,20210601,6.034,1_before watering,presumably no,plant sampled on this date. Weight taken early morning
 42,20210601,6.1915,1_before watering,presumably no,plant sampled on this date
 68,20210601,6.678,1_before watering,presumably no,plant sampled on this date
-80,20210601,999,1_before watering,presumably no,nothing
 111,20210601,7.1665,1_before watering,presumably no,plant sampled on this date
 28,20210602,5.0025,1_before watering,presumably no,plant sampled on this date
 77,20210602,6.3325,1_before watering,presumably no,plant sampled on this date
@@ -686,4 +685,4 @@ plant_ID,date,weight_kg,timing,water_plate,OBS_weight
 130,20210609,6.026,1_before watering,presumably no,nothing
 54,20210610,5.9665,1_before watering,presumably no,plant sampled on this date
 61,20210610,6.6605,1_before watering,presumably no,plant sampled on this date
-89,20210610,7.531,1_before watering,presumably no,plant sampled on this date
+89,20210610,999,1_before watering,presumably no,"plant sampled on this date. Notes say there was water on the plate, discard reading."

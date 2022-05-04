@@ -1,7 +1,7 @@
 campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initial_height_cm,initial_stem_width_1_cm,initial_stem_width_2_cm,initial_branching,date_f,height_cm,stem_width_1_cm,stem_width_2_cm,branching,OBS,n_days
 0,1,2,ambient,moderate_drought,control,20210420,125,1.49,1.45,19,20210608,126,1.67,1.59,19,"Final measurement, not harvested",49
 1,2,2,ambient,control,control,20210420,120,0.69,0.81,19,20210504,9999,9999,9999,9999,destructive harvest,14
-0,3,2,ambient,drought,drought,20210420,125,0.99,0.96,19,20210527,124,1.09,1.04,20,destructive harvest,37
+3,3,2,ambient,drought,drought,20210420,125,0.99,0.96,19,20210527,124,1.09,1.04,20,destructive harvest,37
 0,4,2,ambient,drought_test,drought,20210420,123,0.95,0.96,18,99999999,9999,9999,9999,9999,NA,9999
 1,5,1,elevated,control,control,20210420,122,1.22,1.27,18,20210505,123,1.31,1.27,18,destructive harvest,15
 3,6,1,elevated,drought,drought,20210420,113,0.69,0.67,22,20210527,114,0.9,0.89,17,destructive harvest,37
@@ -21,7 +21,7 @@ campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initi
 4,20,2,ambient,control,control,20210420,128,1.31,1.42,18,20210601,132,1.67,1.75,18,destructive harvest,45
 2,21,2,ambient,drought,drought,20210420,128,1.31,1.25,28,20210519,128,1.34,1.29,28,destructive harvest,29
 0,22,1,elevated,drought,drought,20210420,121.5,1.51,1.43,22,20210608,117,1.46,1.58,18,"Final measurement, not harvested",49
-0,23,2,ambient,drought,drought,20210420,110,0.92,0.95,15,20210527,111,1.03,1.05,14,destructive harvest,37
+3,23,2,ambient,drought,drought,20210420,110,0.92,0.95,15,20210527,111,1.03,1.05,14,destructive harvest,37
 5,24,2,ambient,drought,drought,20210420,115,1.24,1.31,17,20210608,111,1.32,1.47,22,destructive harvest,49
 4,25,1,elevated,drought,drought,20210420,139,1.6,1.59,19,20210603,144,1.72,1.73,17,destructive harvest,44
 0,26,1,elevated,moderate_drought,control,20210420,128,1.31,1.3,21,20210608,132,1.5,1.53,21,"Final measurement, not harvested",49
@@ -31,7 +31,7 @@ campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initi
 0,30,2,ambient,drought,drought,20210420,117,1.04,1.17,27,20210608,114,1.2,1.37,25,"Final measurement, not harvested",49
 5,31,2,ambient,control,control,20210420,133,1.63,1.71,23,20210607,137,1.78,1.76,21,destructive harvest,48
 0,32,1,elevated,drought,drought,20210420,121,1.6,1.66,22,99999999,9999,9999,9999,9999,NA,9999
-0,33,2,ambient,drought,drought,20210420,127,1.37,1.42,19,20210527,124,1.49,1.54,18,destructive harvest,37
+3,33,2,ambient,drought,drought,20210420,127,1.37,1.42,19,20210527,124,1.49,1.54,18,destructive harvest,37
 2,34,1,elevated,drought,drought,20210420,136,1.41,1.46,23,20210520,136,1.63,1.61,22,destructive harvest,30
 3,35,1,elevated,drought,drought,20210420,112,1.23,1.21,20,20210527,112,1.36,1.41,20,destructive harvest,37
 4,36,1,elevated,control,control,20210420,118,1.91,1.09,27,20210601,119,1.35,1.36,26,destructive harvest,42
@@ -39,7 +39,7 @@ campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initi
 0,38,2,ambient,drought,drought,20210420,116,1.1,1.08,16,20210608,119,1,1.1,8,"Final measurement, not harvested",49
 5,39,1,elevated,moderate_drought,control,20210420,108.5,1.16,1.23,20,20210609,109,1.44,1.04,21,destructive harvest,50
 5,40,2,ambient,control,control,20210420,120,1.87,1.76,18,20210607,122,2.05,1.86,25,destructive harvest,48
-0,41,2,ambient,drought,drought,20210420,99,1.04,1,21,20210527,101,1,1.16,20,destructive harvest,37
+3,41,2,ambient,drought,drought,20210420,99,1.04,1,21,20210527,101,1,1.16,20,destructive harvest,37
 4,42,2,ambient,control,control,20210420,119,1.03,1.12,19,20210601,120,1.25,1.32,18,destructive harvest,46
 0,43,1,elevated,drought,drought,20210420,125,1.4,1.37,24,20210608,128,1.47,1.48,25,"Final measurement, not harvested",49
 2,44,1,elevated,control,control,20210420,111,1.07,1,23,20210518,120,1.18,1.24,24,destructive harvest,28
@@ -73,7 +73,7 @@ campaign,id_plant,phyto,treatment_co2,treatment_h2o,water_treatment,date_i,initi
 1,72,1,elevated,control,control,20210420,114,1,1.01,29,20210505,110,1.16,1.16,29,destructive harvest,15
 0,73,1,elevated,drought,drought,20210420,123,1.14,1.03,19,20210608,124,1.25,1.37,18,"Final measurement, not harvested",49
 0,74,2,ambient,drought,drought,20210420,121,1.33,1.38,28,20210608,121,1.4,1.44,29,"Final measurement, not harvested",49
-0,75,2,ambient,drought,drought,20210420,124,1.23,1.14,27,20210527,118,1.24,1.29,22,destructive harvest,37
+3,75,2,ambient,drought,drought,20210420,124,1.23,1.14,27,20210527,118,1.24,1.29,22,destructive harvest,37
 0,76,2,ambient,drought,drought,20210420,119,1,0.9,23,20210608,118,1.13,1.13,22,"Final measurement, not harvested",49
 4,77,2,ambient,drought,drought,20210420,108,1.38,1.41,22,20210602,109,1.54,1.45,21,destructive harvest,43
 0,78,1,elevated,drought,drought,20210420,125.5,1.21,1.28,20,20210608,126,1.5,1.35,18,"Final measurement, not harvested",49

@@ -1,6 +1,7 @@
 ### load libraries ####
 library(googledrive)
 library(lubridate)
+library(dplyr)
 library(tidyverse)
 library(ggplot2)
 library(doBy)
@@ -34,7 +35,7 @@ soilPotW <- potW %>% filter(id_plant >= 121)
 potW <- potW %>% filter(id_plant <= 120)
 
 # Gap fill missing data -> Step 1: fill in records of missing data "after watering"
-# withe average of the weight of the corresponding plant
+# with the average of the weight of the corresponding plant
 
 # calculate averages of weight per plant after watering (only pots with plant)
 weight_after_means <- potW %>% 
@@ -55,7 +56,7 @@ weight_after_means2 <- potW %>%
 weight_after_means <- weight_after_means %>% 
   bind_rows(weight_after_means2)
 # have a look at the data
-#View(weight_after_means)
+# View(weight_after_means)
 # small se per plot and we have at least 5 measurements per plot
 # merge with potW
 potW <- potW %>%
@@ -170,20 +171,6 @@ transp$daily_transp <- ifelse(transp$date == as.Date('2021-06-07'), NA, transp$d
 transp[which(transp$id_plant == 20 & transp$date == as.Date("2021-06-01")), 'daily_transp'] <- NA
 
 write.csv(transp, file ='transp.csv', row.names = F)
-# calculate cumulative transpiration 8E) and daily mean E over the entire period (29 or 30 April until harvest date):
-transp_summ <- transp %>% 
-  group_by(id_plant) %>% 
-  summarise(E_cum = sum(increment_g, na.rm = T), ndays = sum(day_incr,  na.rm = T),
-            E_rate_mean = mean(daily_transp, na.rm = T), E_rate_se = s.err.na(daily_transp),
-            E_rate_n = lengthWithoutNA(daily_transp))
-
-# plot by treatment only pots with plant
-plantE <- subset(transp, id_plant <= 120)
-plot(plantE$increment_g ~ plantE$date, pch = 19, col = as.factor(plantE$water_treatment))
-legend('topright', legend = levels(as.factor(plantE$water_treatment)), pch = 19, bty = 'n',
-       col = c('black', 'red'))
-# export to excel the file with transpiration data
-write.csv(transp, file = 'phlData/trasnpiration_calculations.csv', row.names = F)
 
 #para las hojas LNSC no tenemos datos de peso seco, por lo que hay que estimarlo haciendo una regla de tres con los pesos seco y fresco totales de hojas
 #para ello creo la variable est_DW_LNSC
@@ -199,41 +186,35 @@ morpho_biomass <- morpho_biomass %>%
 #calcular area foliar total de cada planta
 morpho_biomass$tot_area_leaves <- morpho_biomass$tot_DW_L*morpho_biomass$sla
 #crear data frame solo con id_plant y area foliar total (y poner los nombres bien)
-tot_area_leaves_df <-data.frame(morpho_biomass$id_plant,morpho_biomass$tot_area_leaves)
+# a simpler version
+tot_area_leaves_df <- morpho_biomass %>% select(c(id_plant, tot_area_leaves))
 
-tot_area_leaves_df <- tot_area_leaves_df %>% rename(id_plant = morpho_biomass.id_plant)
-tot_area_leaves_df <- tot_area_leaves_df %>% rename(tot_area_leaves = morpho_biomass.tot_area_leaves)
+# tot_area_leaves_df <-data.frame(morpho_biomass$id_plant,morpho_biomass$tot_area_leaves)
+# 
+# tot_area_leaves_df <- tot_area_leaves_df %>% rename(id_plant = morpho_biomass.id_plant)
+# tot_area_leaves_df <- tot_area_leaves_df %>% rename(tot_area_leaves = morpho_biomass.tot_area_leaves)
 
-transp2 <- transp %>%
-  select(c(1,2,7,8,9,12,13)) %>% 
-  filter(!daily_transp == "NA") %>% 
-  group_by (id_plant) %>% 
-  mutate(day_cum = cumsum(day_incr))
+# here we are getting rid of certain values of increment_g which we need for total transpiration
+# also, avoid using column numbers to select variables, use column names instead
+# transp2 <- transp %>%
+#   select(c(1,2,7,8,9,12,13)) %>%
+#   filter(!daily_transp == "NA") %>%
+#   group_by (id_plant) %>%
+#   mutate(day_cum = cumsum(day_incr))
 
-#View(transp2)
-
-transp_and_area <- transp2 %>%
-  left_join(tot_area_leaves_df, by = 'id_plant')
-
-####calcular transpiracion diaria por unidad de area foliar (g/cm^2)####
-
-transp_and_area$daily_transp_per_area <- 
-  transp_and_area$daily_transp/transp_and_area$tot_area_leaves
-
-transp_and_area <- transp_and_area %>% 
-  mutate(daily_E_mol.m2 = (daily_transp/18)/(tot_area_leaves*0.0001))
-
-hist(transp_and_area$daily_transp_per_area)
-hist(transp_and_area$daily_E_mol.m2)
-
-#create a variable that combines water and CO2 treatment
-transp_and_area$water_co2 <- paste0(transp_and_area$treatment_co2, '_', transp_and_area$water_treatment)
-
-transp_and_area$doy <- yday(transp_and_area$date)
-
+# merge with leaf area and calculate transpiration per unit of leaf area
+transp_and_area <- transp %>%
+  select(c(id_plant, date, phyto, treatment_co2, water_treatment, increment_g, day_incr, daily_transp)) %>% 
+  left_join(tot_area_leaves_df, by = 'id_plant') %>% 
+  mutate(daily_E_mol.m2.day = (daily_transp/18)/(tot_area_leaves*0.0001)) %>% 
+  mutate(water_co2 = paste0(water_treatment, '_', treatment_co2)) %>% 
+  mutate(doy = yday(date))
+  
 # plot individual raw data per treatment combination:
+k <- transp_and_area[which(!is.na(transp_and_area$daily_E_mol.m2.day)),]
 windows(12, 8)
-ggplot(transp_and_area, aes(x = doy, y = daily_E_mol.m2, color = as.factor(id_plant), group = as.factor(id_plant))) +
+ggplot(k, aes(x = doy, y = daily_E_mol.m2.day, color = as.factor(id_plant),
+                            group = as.factor(id_plant))) +
   geom_line() +
   facet_grid(~water_co2) +
   ylab(expression(italic(E)~(mol~m^-2~day^-1))) +
@@ -243,20 +224,30 @@ ggplot(transp_and_area, aes(x = doy, y = daily_E_mol.m2, color = as.factor(id_pl
 # a little cheat to have a boxplot per day
 transp_and_area$doy_f <- as.factor(yday(transp_and_area$date))
 windows(12, 8)
-ggplot(transp_and_area, aes(x = doy_f, y = daily_E_mol.m2)) +
+ggplot(transp_and_area, aes(x = doy_f, y = daily_E_mol.m2.day)) +
   geom_boxplot() +
   facet_grid(~water_co2) +
   ylab(expression(italic(E)~(mol~m^-2~day^-1))) +
   xlab('')
 
+# calculate cumulative transpiration (E_cum), daily mean E per unit of leaf area,
+#over the entire period (29 or 30 April until harvest date):
+transp_summ <- transp_and_area %>% 
+  group_by(id_plant) %>% 
+  summarise(E_cum = sum(increment_g, na.rm = T), ndays = sum(day_incr,  na.rm = T),
+            E_rate_mean = mean(daily_E_mol.m2.day, na.rm = T), E_rate_se = s.err.na(daily_E_mol.m2.day),
+            E_rate_n = lengthWithoutNA(daily_E_mol.m2.day)) %>% 
+  left_join(labels, by = 'id_plant')
+
+
 ####Agrupar los daily_transp por tratamientos(co2 y h2o) y dias (day_cum)####
 
 transp_and_area_groups <- transp_and_area %>%
   group_by (treatment_co2, water_treatment, date) %>%
-  summarize (E_mean = mean (daily_E_mol.m2, na.rm=T),
-             E_sd = sd(daily_E_mol.m2, na.rm=T),
-             E_se = s.err.na(daily_E_mol.m2),
-             E_n = lengthWithoutNA(daily_E_mol.m2))
+  summarize (E_mean = mean (daily_E_mol.m2.day, na.rm=T),
+             E_sd = sd(daily_E_mol.m2.day, na.rm=T),
+             E_se = s.err.na(daily_E_mol.m2.day),
+             E_n = lengthWithoutNA(daily_E_mol.m2.day))
 
 # create a variable indicated number of days since start of measurements
 transp_and_area_groups <- transp_and_area_groups %>% 
@@ -264,7 +255,8 @@ transp_and_area_groups <- transp_and_area_groups %>%
                         yday(date) - yday(as.Date("2021-04-30"))))
 # now plot:
 windows(12, 8)
-ggplot(transp_and_area_groups, aes(x = n_day, y = E_mean, shape = water_treatment)) +
+k <- transp_and_area_groups[which(!is.na(transp_and_area_groups$E_mean)),]
+ggplot(k, aes(x = n_day, y = E_mean, shape = water_treatment)) +
   geom_errorbar(aes(ymin = E_mean - E_se, ymax = E_mean + E_se), width = 0.1) +
   geom_line(aes(color = water_treatment)) +
   geom_point(aes(color = water_treatment)) +
