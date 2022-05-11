@@ -1,0 +1,210 @@
+id_plant,phy,treatment_h2o,date,time,wp_mpa,obs
+27,1,drought test,20210416,800,-0.6,nothing
+59,1,drought test,20210416,800,-0.6,nothing
+90,1,drought test,20210416,800,-0.71,nothing
+4,2,drought test,20210416,800,-0.75,nothing
+62,2,drought test,20210416,800,-1.2,nothing
+29,2,drought test,20210416,800,-0.9,nothing
+4,2,drought test,20210420,815,9999,broke leaf
+29,2,drought test,20210420,815,-0.8,nothing
+62,2,drought test,20210420,815,-0.84,nothing
+59,1,drought test,20210420,815,-0.55,nothing
+27,1,drought test,20210420,815,-0.45,nothing
+90,1,drought test,20210420,815,-0.66,nothing
+16,1,control,20210420,815,-0.52,nothing
+17,1,control,20210420,815,-0.51,nothing
+87,1,control,20210420,815,-0.44,nothing
+13,2,control,20210420,815,-0.32,nothing
+3,2,control,20210420,815,-0.48,nothing
+100,2,control,20210420,815,-0.4,nothing
+17,1,control,20210423,800,-0.23,nothing
+16,1,control,20210423,800,9999,broke leaf
+27,1,drought test WATERED,20210423,800,-0.34,plant watered the day before by mistake
+59,1,drought test,20210423,800,-0.29,nothing
+87,1,control,20210423,800,-0.29,nothing
+90,1,drought test,20210423,800,-0.52,nothing
+3,2,control,20210423,800,-0.55,nothing
+13,2,control,20210423,800,-0.33,nothing
+62,2,drought test,20210423,800,-0.49,nothing
+100,2,control,20210423,800,-0.49,nothing
+29,2,drought test,20210423,800,-0.39,nothing
+4,2,drought test,20210423,800,-1.1,nothing
+13,2,control,20210427,800,-0.79,problems with pressure regulator and visibility
+100,2,control,20210427,800,-0.73,problems with pressure regulator and visibility
+3,2,control,20210427,800,-0.27,nothing
+4,2,drought test,20210427,800,-0.54,nothing
+62,2,drought test,20210427,800,-0.49,nothing
+29,2,drought test,20210427,800,-0.33,nothing
+87,1,control,20210427,800,-0.55,very small petiole
+16,1,control,20210427,800,-0.22,nothing
+17,1,control,20210427,800,-0.28,nothing
+59,1,drought test,20210427,800,-0.41,nothing
+90,1,drought test,20210427,800,-0.49,nothing
+3,2,control,20210430,800,-0.61,nothing
+100,2,control,20210430,800,-0.24,nothing
+13,2,control,20210430,800,-0.23,nothing
+62,2,drought test,20210430,800,-0.48,nothing
+4,2,drought test,20210430,800,-0.44,nothing
+29,2,drought test,20210430,800,-0.53,nothing
+17,1,control,20210430,800,-0.25,nothing
+16,1,control,20210430,800,-0.39,nothing
+87,1,control,20210430,800,-0.15,nothing
+59,1,drought test,20210430,800,-0.46,nothing
+90,1,drought test,20210430,800,-0.45,nothing
+2,2,control,20210504,750,-0.396,nothing
+13,2,control,20210504,750,-0.82,really low WP!!!
+13,2,control,20210504,750,-0.8,really low WP!!!
+63,2,control,20210504,750,-0.14,nothing
+63,2,control,20210504,750,-0.3,nothing
+84,2,control,20210504,750,-0.358,nothing
+84,2,control,20210504,750,-0.33,nothing
+95,2,control,20210504,750,-0.262,nothing
+5,1,control,20210505,750,-0.192,nothing
+5,1,control,20210505,750,-0.1,nothing
+18,1,control,20210505,750,-0.216,nothing
+18,1,control,20210505,750,-0.212,nothing
+67,1,control,20210505,750,-0.25,nothing
+67,1,control,20210505,750,-0.193,nothing
+72,1,control,20210505,750,-0.169,nothing
+72,1,control,20210505,750,-0.195,nothing
+87,1,control,20210505,750,-0.158,nothing
+87,1,control,20210505,750,-0.144,nothing
+44,1,control,20210518,750,-0.158,nothing
+70,1,control,20210518,750,-0.09,nothing
+70,1,control,20210518,750,-0.185,nothing
+118,1,control,20210518,750,-0.167,nothing
+56,2,control,20210518,750,-0.087,nothing
+103,2,control,20210518,750,-0.237,nothing
+109,2,control,20210518,750,-0.127,nothing
+109,2,control,20210518,750,-0.17,nothing
+21,2,drought,20210519,750,-0.24,nothing
+37,2,drought,20210519,750,-0.205,nothing
+37,2,drought,20210519,750,-0.247,nothing
+92,2,drought,20210519,750,-0.232,nothing
+92,2,drought,20210519,750,-0.233,nothing
+98,2,drought,20210519,750,-0.39,nothing
+106,2,drought,20210519,750,-0.306,nothing
+28,2,drought,20210602,750,-2.94,nothing
+28,2,drought,20210602,750,-3.078,nothing
+77,2,drought,20210602,750,-0.634,nothing
+107,2,drought,20210602,750,-0.961,nothing
+107,2,drought,20210602,750,-0.903,nothing
+25,1,drought,20210603,750,-2.474,nothing
+25,1,drought,20210603,750,-2.394,nothing
+112,1,drought,20210603,750,-0.854,nothing
+112,1,drought,20210603,750,-0.9,nothing
+101,1,drought,20210603,750,-1.031,nothing
+101,1,drought,20210603,750,-1.126,nothing
+28,2,drought,20210602,955,-3.216,nothing
+77,2,drought,20210602,1105,-0.418,nothing
+107,2,drought,20210602,1215,-1.62,nothing
+25,1,drought,20210603,950,-2.965,nothing
+112,1,drought,20210603,1105,-1.126,nothing
+101,1,drought,20210603,1400,-1.764,nothing
+96,1,control,20210525,750,-0.140,nothing
+96,1,control,20210525,750,-0.164,nothing
+119,1,control,20210525,750,-0.135,nothing
+119,1,control,20210525,750,-0.181,nothing
+120,1,control,20210525,750,-0.18,nothing
+120,1,control,20210525,750,-0.139,nothing
+65,2,control,20210525,750,-0.188,nothing
+86,2,control,20210525,750,-0.185,nothing
+86,2,control,20210525,750,-0.71,nothing
+88,2,control,20210525,750,-0.176,nothing
+57,2,drought,20210526,750,-1.18,nothing
+57,2,drought,20210526,750,-0.478,nothing
+97,2,drought,20210526,750,-0.302,nothing
+97,2,drought,20210526,750,-0.494,nothing
+99,2,drought,20210526,750,-0.943,nothing
+99,2,drought,20210526,750,-0.871,nothing
+100,2,drought,20210526,750,-2.13,nothing
+100,2,drought,20210526,750,-1.71,nothing
+102,2,drought,20210526,750,-0.524,nothing
+102,2,drought,20210526,750,-0.382,nothing
+11,1,drought,20210520,750,-0.173,nothing
+11,1,drought,20210520,750,-0.171,nothing
+34,1,drought,20210520,750,-0.155,nothing
+34,1,drought,20210520,750,-0.188,nothing
+45,1,drought,20210520,750,-0.17,nothing
+52,1,drought,20210520,750,-0.298,nothing
+52,1,drought,20210520,750,-0.385,nothing
+85,1,drought,20210520,750,-0.349,nothing
+85,1,drought,20210520,750,-0.572,nothing
+6,1,drought,20210527,750,-0.262,nothing
+6,1,drought,20210527,750,-0.339,nothing
+35,1,drought,20210527,750,-0.312,nothing
+35,1,drought,20210527,750,-0.239,nothing
+50,1,drought,20210527,750,-0.436,nothing
+50,1,drought,20210527,750,-0.41,nothing
+69,1,drought,20210527,750,-0.437,nothing
+69,1,drought,20210527,750,-0.461,nothing
+104,1,drought,20210527,750,-0.445,nothing
+36,1,control,20210601,750,-0.146,nothing
+68,1,control,20210601,750,-0.166,nothing
+68,1,control,20210601,750,-0.17,nothing
+111,1,control,20210601,750,-0.19,nothing
+20,2,control,20210601,750,-0.175,nothing
+42,2,control,20210601,750,-0.202,nothing
+42,2,control,20210601,750,-0.175,nothing
+110,2,control,20210601,750,-0.193,nothing
+36,1,control,20210601,1345,-0.166,nothing
+36,1,control,20210601,1345,-0.171,2nd measurement
+68,1,control,20210601,1240,-0.42,nothing
+111,1,control,20210601,1430,-0.179,nothing
+20,2,control,20210601,1000,-0.36,nothing
+42,2,control,20210601,1110,-0.341,nothing
+110,2,control,20210601,1150,-0.483,nothing
+54,1,control,20210610,750,-0.186,nothing
+54,1,control,20210610,750,-0.215,nothing
+61,1,control,20210610,750,-0.214,nothing
+61,1,control,20210610,750,-0.201,nothing
+89,1,control,20210610,750,-0.198,nothing
+89,1,control,20210610,750,-0.215,nothing
+114,1,control,20210610,750,-0.222,nothing
+114,1,control,20210610,750,-0.59,nothing
+54,1,control,20210610,1300,-0.189,Top leaf WP= -0.71
+61,1,control,20210610,1055,-0.355,nothing
+89,1,control,20210610,1500,-0.248,nothing
+114,1,control,20210610,1630,-0.210,WP high
+114,1,control,20210610,1630,-0.711,2nd measurement
+39,1,moderate drought,20210609,750,-0.348,nothing
+39,1,moderate drought,20210609,750,-0.224,nothing
+58,1,moderate drought,20210609,750,-0.222,nothing
+58,1,moderate drought,20210609,750,-0.355,nothing
+93,1,moderate drought,20210609,750,-0.448,nothing
+93,1,moderate drought,20210609,750,-0.219,nothing
+14,1,drought,20210609,750,-3.031,nothing
+14,1,drought,20210609,750,-3.065,nothing
+46,1,drought,20210609,750,-0.483,Muy poca área foliar
+46,1,drought,20210609,750,-0.386,nothing
+39,1,moderate drought,20210609,1500,-0.224,nothing
+39,1,moderate drought,20210609,1500,-1.165,2nd measurement
+39,1,moderate drought,20210609,1500,-0.682,3rd measurement
+58,1,moderate drought,20210609,1310,-0.258,nothing
+93,1,moderate drought,20210609,1000,-0.540,nothing
+14,1,drought,20210609,1110,-3.6,nothing
+46,1,drought,20210609,1130,-0.674,nothing
+31,2,control,20210607,750,-0.119,nothing
+31,2,control,20210607,750,-0.166,nothing
+31,2,control,20210607,1530,-0.183,nothing
+64,2,control,20210607,750,-0.207,nothing
+64,2,control,20210607,750,-0.188,nothing
+64,2,control,20210607,1130,-0.278,nothing
+80,2,control,20210607,750,-0.190,nothing
+80,2,control,20210607,750,-0.222,nothing
+80,2,control,20210607,1320,-0.187,nothing
+40,2,control,20210607,1650,-0.389,nothing
+12,2,moderate drought,20210608,750,-0.395,nothing
+12,2,moderate drought,20210608,750,-0.370,nothing
+51,2,moderate drought,20210608,750,-1.629,nothing
+81,2,moderate drought,20210608,750,-0.81,nothing
+81,2,moderate drought,20210608,750,-0.379,nothing
+24,2,drought,20210608,750,-2.432,nothing
+24,2,drought,20210608,750,-2.446,nothing
+116,2,drought,20210608,750,-1.628,nothing
+116,2,drought,20210608,750,-2.575,nothing
+12,2,moderate drought,20210608,1310,-0.364,nothing
+51,2,moderate drought,20210608,1120,-1.828,nothing
+81,2,moderate drought,20210608,1400,-0.292,No está indicada la hora
+24,2,drought,20210608,1320,-3.237,nothing
+116,2,drought,20210608,1120,-2.072,nothing
